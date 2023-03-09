@@ -1,0 +1,332 @@
+@font-face {
+    font-family: "SofiaSansExtraCondensed";
+    src: url(../Fonts/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
+    src: url(../Fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf);
+}
+/*Estilo base*/
+*{  
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    
+}
+
+
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*Grids para página principal*/
+body{
+    font-family: SofiaSansExtraCondensed;
+    font-size: large;
+    background-color:#ebebeb;
+    text-align: center;
+    width:100%;
+    height:2000px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr ;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "navbar"
+    "presentacion"
+    "Seccion1"
+    "Seccion2"
+    "Seccion3"
+    "Seccion4"
+    "footer";
+    gap:5px;
+    overflow-anchor: none;
+}
+
+.navbar{
+    display: inline;
+    height:fit-content;
+    grid-area: navbar;
+    background-color: #ebebeb;
+}
+.presentacion{
+    display: grid;
+    height: 400px;
+    grid-area: presentacion;
+    color: #ebebeb;
+    font-weight: bold;
+    font-size: 180%;
+    padding: 5%;
+    background-color: #003748;
+}
+.Seccion1{
+    display: grid;
+    height: fit-content;
+    font-size: 140%;
+    color: #003748;
+    padding: 2%;
+    grid-area: Seccion1;
+    background-color: #ebebeb;
+    border-width: 1px;
+}
+.Seccion2{
+    display: grid;
+    height: fit-content;
+    font-size: 140%;
+    padding: 2%;
+    grid-area: Seccion2;
+    background-color: #cececece;
+    border-width: 1px;
+}
+.Seccion3{
+
+    display: grid;
+    height: fit-content;
+    font-size: 140%;
+    padding: 2%;
+    grid-area: Seccion3;
+    background-color: #ebebeb;
+    border-width: 1px;
+}
+.Seccion4{
+    display: grid;
+    height: fit-content;
+    font-size: 140%;
+    padding: 2%;
+    grid-area: Seccion4;
+    background-color: #cececece;
+    border-width: 1px;
+}
+.footer{
+    display: grid;
+    grid-area: footer;
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*estilo de los links, sin subrayado ni color*/
+
+.link{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*Estilo de los botones*/
+.Botonmural{
+    width: 10%;
+    height: fit-content;
+    border: none;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: #004e63;
+    font-size: 80%;
+    font-weight:bold;
+    border-radius: 20px;
+    padding-top: 15px;
+    display: grid;
+    place-content: center;
+
+    
+}
+.icons{
+
+    color: #004e63;
+    fill: #003748;
+    
+
+}
+
+/*---------------------------------------------------- Certificaciones-------------------------------------------------------------*/
+/*Cards para la sección de experiencia y certificaciones*/
+.experienciaycertificaciones {
+    margin: auto;
+    background-color: #ebebeb;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+} 
+.expcard{
+    
+    height: 260px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 80%;
+    font-weight:bold;
+    background-color: #006d8f;
+    border-radius: 10px;
+    width: 30%;
+    color: #ebebeb;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    
+    }
+.item{
+    margin:auto;
+    width: fit-content;
+    height: 80%;
+    display: grid;
+    place-content: center;
+    }
+
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*Sliders*/
+/*.contenedorslider{
+    margin: auto;
+    width:1700px;
+    height:fit-content;
+    
+}
+.slider{
+    
+    margin:auto;
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    color: #ebebeb;
+    font-size: 200%;
+    scroll-behavior: smooth;
+    
+}
+*/
+/*
+#slide1{
+    background-image:url("../media/data-center-cabling.jpg");
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    
+}
+#slide2{
+    background-image:url("../media/pexels-manuel-geissinger-325229.jpg");
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    
+}
+#slide3{
+    background-image:url("../media/wp2044698-networking-wallpapers.jpg");
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    
+}
+.botonesslider{display: inline-flex;
+margin: auto;
+}
+*/
+/*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
+.gridfotos{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    width:95%;
+    height:fit-content;
+    display:grid;
+    grid-template-rows: repeat(2fr);
+    grid-template-columns: repeat(6fr);
+    grid-template-areas:
+    "foto1 foto1 foto1 texto1 texto1 texto1"
+    "foto2 texto2 foto3 texto3 foto4 texto4";
+    gap:20px;
+
+}
+
+.foto1{
+    box-shadow: 5px 5px 3px rgb(126, 126, 126);
+    grid-area: foto1;
+    margin: auto;
+    display: flex;
+    
+}
+.foto1 img{
+    width: 550px;
+    height: 350px;
+    }
+.foto2{
+    box-shadow: 5px 5px 3px rgb(126, 126, 126);
+    grid-area: foto2;
+    margin:auto;}
+.foto2 img{
+    width: 350px;
+    height: 250px;}
+.foto3{
+    box-shadow: 5px 5px 3px rgb(126, 126, 126);
+    grid-area: foto3;
+    margin:auto;}
+.foto3 img{
+    width: 350px;
+    height: 250px;}
+.foto4{
+    box-shadow: 5px 5px 3px rgb(126, 126, 126);
+    grid-area: foto4;
+    margin:auto;}
+.foto4 img{
+    width: 350px;
+    height: 250px;}
+
+.texto1{
+    font-size: 180%;
+    grid-area:texto1;
+    margin:auto;}
+
+.texto2{
+    font-size: 120%;
+    grid-area:texto2;
+    margin:auto;}
+.texto3{
+    font-size: 120%;
+    grid-area:texto3;
+    margin:auto;}
+.texto4{
+    font-size: 120%;
+    grid-area:texto4;
+    margin:auto;}
+
+
+
+/*---------------------------------------------------- Biblioteca------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+
+
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+
+
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+
+
