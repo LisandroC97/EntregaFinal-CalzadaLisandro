@@ -39,27 +39,34 @@ body{
     "Seccion4"
     "footer";
     gap:5px;
-    overflow-anchor: none;
+    
 }
 
 .navbar{
     display: inline;
+    margin: auto;
+    width: 100%;
     height:fit-content;
     grid-area: navbar;
     background-color: #ebebeb;
 }
 .presentacion{
     display: grid;
-    height: 400px;
+    margin: auto;
+    width: 100%;
+    height: 90%;
     grid-area: presentacion;
     color: #ebebeb;
     font-weight: bold;
-    font-size: 180%;
+    font-size: 200%;
     padding: 5%;
     background-color: #003748;
+    place-content: center;
 }
 .Seccion1{
     display: grid;
+    width: 100%;
+    margin: auto;
     height: fit-content;
     font-size: 140%;
     color: #003748;
@@ -70,6 +77,8 @@ body{
 }
 .Seccion2{
     display: grid;
+    margin: auto;
+    width: 100%;
     height: fit-content;
     font-size: 140%;
     padding: 2%;
@@ -80,6 +89,8 @@ body{
 .Seccion3{
 
     display: grid;
+    margin: auto;
+    width: 100%;
     height: fit-content;
     font-size: 140%;
     padding: 2%;
@@ -89,6 +100,8 @@ body{
 }
 .Seccion4{
     display: grid;
+    width: 100%;
+    margin: auto;
     height: fit-content;
     font-size: 140%;
     padding: 2%;
@@ -96,12 +109,16 @@ body{
     background-color: #cececece;
     border-width: 1px;
 }
-.footer{
+.pie{
     display: grid;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
     grid-area: footer;
     background-color: #ebebeb;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 /*estilo de los links, sin subrayado ni color*/
@@ -142,6 +159,8 @@ body{
     background-color: #ebebeb;
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     
 } 
@@ -169,6 +188,12 @@ body{
     place-content: center;
     }
 
+
+
+.carousel{
+    width: 80%;
+    margin:auto;
+}
 /*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
 /*Sliders*/
 /*.contenedorslider{
@@ -222,77 +247,42 @@ margin: auto;
 }
 */
 /*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
-.gridfotos{
+.fotos{
+    width: 80%;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 30px;
     margin:auto;
-    margin-top:30px;
-    margin-bottom:30px;
+    
     width:95%;
     height:fit-content;
-    display:grid;
-    grid-template-rows: repeat(2fr);
-    grid-template-columns: repeat(6fr);
-    grid-template-areas:
-    "foto1 foto1 foto1 texto1 texto1 texto1"
-    "foto2 texto2 foto3 texto3 foto4 texto4";
-    gap:20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
 
 }
-
-.foto1{
-    box-shadow: 5px 5px 3px rgb(126, 126, 126);
-    grid-area: foto1;
-    margin: auto;
+.card{box-shadow: 5px 5px 5px #666666;
+margin: auto;}
+.foto{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    
     
 }
-.foto1 img{
-    width: 550px;
-    height: 350px;
-    }
-.foto2{
-    box-shadow: 5px 5px 3px rgb(126, 126, 126);
-    grid-area: foto2;
-    margin:auto;}
-.foto2 img{
-    width: 350px;
-    height: 250px;}
-.foto3{
-    box-shadow: 5px 5px 3px rgb(126, 126, 126);
-    grid-area: foto3;
-    margin:auto;}
-.foto3 img{
-    width: 350px;
-    height: 250px;}
-.foto4{
-    box-shadow: 5px 5px 3px rgb(126, 126, 126);
-    grid-area: foto4;
-    margin:auto;}
-.foto4 img{
-    width: 350px;
-    height: 250px;}
-
-.texto1{
-    font-size: 180%;
-    grid-area:texto1;
-    margin:auto;}
-
-.texto2{
-    font-size: 120%;
-    grid-area:texto2;
-    margin:auto;}
-.texto3{
-    font-size: 120%;
-    grid-area:texto3;
-    margin:auto;}
-.texto4{
-    font-size: 120%;
-    grid-area:texto4;
-    margin:auto;}
 
 
+.texto{
+    font-size: 100%;
+    margin:auto;
+}
 
 /*---------------------------------------------------- Biblioteca------------------------------------------------------------------*/
 
@@ -361,3 +351,121 @@ margin: auto;
 /*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
 /*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
 /*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+
+
+@media (min-width:320px ) and (max-width:420px)
+{   
+    
+    body{width: 100%;
+        }
+    header{width: 100%;
+        }
+    footer{width: 100%;
+        }
+    
+    .navbar{
+        height: 10px;
+        width: 100%;
+    }
+    .presentacion{
+        width:100%;
+        margin: auto;
+    }
+    .Seccion1{height: fit-content;}
+    .Seccion2{height: fit-content;}
+    .Seccion3{height: fit-content;}
+    .Seccion4{height: fit-content;}
+
+    .Title{font-size: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .Subtitle{font-size: 40%;
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;}
+    .Description{
+        font-size: 35%;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        }
+    
+    .experienciaycertificaciones {
+        
+        margin: auto;
+        background-color: #ebebeb;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        
+        } 
+    .expcard{
+        font-size: 50%;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        height: fit-content;
+        }
+    .expcard h2{
+            font-size: x-large;
+            }
+
+    .carousel{
+        width: 60%;
+        margin: auto;
+        font-size: smaller;
+        text-align: center
+        }
+    
+    .fotos{
+        margin-top: 10px;
+        width: 80%;
+        height: 350px;
+        overflow-y: scroll;
+        padding: 20px;
+        font-size: small;
+        grid-template-rows: repeat(4fr);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "foto1 texto1"
+            "foto2 texto2"
+            "foto3 texto3"
+            "foto4 texto4"
+    }
+    .foto{
+        width: 200px;
+    height: 200px;
+    }
+    .sectiontitle{font-size: 95%;
+    margin: auto;
+text-align: center;}
+    .Botonmural{
+        width: 40%;
+        height: 50%;
+        font-size: 50%;
+    }
+}
+
+@media (min-width:421px) and (max-width:720)
+{ 
+}
+
+@media (min-width:721px)
+{ 
+}
