@@ -429,10 +429,17 @@ margin: auto;}
     .carousel{
         width: 60%;
         margin: auto;
-        font-size: smaller;
+        font-size: 20%;
         text-align: center
         }
-    
+    .carousel p{
+        display: flex;
+        color: #FFFFFF;
+        font-size: small;}
+    .carousel h2{
+            display: flex;
+            color: #FFFFFF;
+            font-size: small;}
     .fotos{
         margin-top: 10px;
         width: 80%;
