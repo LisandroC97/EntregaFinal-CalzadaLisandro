@@ -403,12 +403,12 @@ margin: auto;}
     .Seccion2{height: fit-content;}
 
     .carousel{
-        width: 90%;
-        height: 100%;
-        margin: auto;
-        font-size: 20%;
-        text-align: center;
-        }
+            width: 90%;
+            height: 100%;
+            margin: auto;
+            font-size: 20%;
+            text-align: center;
+            }
         .carousel p{
             display: flex;
             color: #FFFFFF;
@@ -419,51 +419,52 @@ margin: auto;}
             font-size: small;}
 
     .Seccion3{
-        display: grid;
-        place-content: center;}
-            .fotos{
-                width: 90%;
-                height: 200px;
-                overflow: scroll;
-                padding: 20px;
-                font-size: small;
-                grid-template-rows: repeat(4fr);
-                grid-template-columns: 1fr 1fr;
-                grid-template-areas:
-                "foto1 texto1"
-                "foto2 texto2"
-                "foto3 texto3"
-                "foto4 texto4"
-                }
+            display: grid;
+            place-content: center;}
+                .fotos{
+                    width: 90%;
+                    height: 200px;
+                    overflow: scroll;
+                    padding: 20px;
+                    font-size: small;
+                    grid-template-rows: repeat(4fr);
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-areas:
+                    "foto1 texto1"
+                    "foto2 texto2"
+                    "foto3 texto3"
+                    "foto4 texto4"
+                    }
                 .card{width: 60%;
                     height: 60%;}
                 .foto{
                     width: 90%;
                     height: 90%;
-                    }
-        
-    
+                    }    
     .Seccion4{  
-                height: fit-content;
-                font-size: xx-large;
-                text-align: center;
+            height: fit-content;
+            font-size: xx-large;
+            text-align: center;
             }
 }
 /*Retoques Certificaciones*/
     .secundaria h1{
-    font-size:120%;}
-    .secundaria img{width: 5%;}
+            font-size:120%;
+                }
+    .secundaria img{
+            width: 5%;
+            }
 
-    .certbox{width: 80%;
-        height: 100%;
-        margin: auto;
-        font-size: 60%;
-        padding-bottom: 30px;}
+    .certbox{
+            width: 80%;
+            height: 100%;
+            margin: auto;
+            font-size: 60%;
+            padding-bottom: 30px;}
     .certbox div{
-        height: fit-content;
-        gap:20px;
+            height: fit-content;
+            gap:20px;
     }
-
 /*Retoques Biblioteca*/
 /*Retoques fotos*/
 .container{
@@ -472,18 +473,6 @@ margin: auto;}
 }
 /*Retoques Laboratorios*/
     
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-
-
 @media (min-width:481px) and (max-width:768px)
 {  
     html, body,footer{height: 100%;
