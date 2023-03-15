@@ -48,7 +48,7 @@ body{
     width: 100%;
     height:fit-content;
     grid-area: navbar;
-    background-color: #ebebeb;
+    background-color: #ffffff;
 }
 .presentacion{
     display: grid;
@@ -69,13 +69,14 @@ body{
     margin: auto;
     height: fit-content;
     font-size: 140%;
-    color: #003748;
+    color: #000000;
     padding: 2%;
     grid-area: Seccion1;
     background-color: #ebebeb;
     border-width: 1px;
 }
 .Seccion2{
+    color: #780088;
     display: grid;
     margin: auto;
     width: 100%;
@@ -83,7 +84,7 @@ body{
     font-size: 140%;
     padding: 2%;
     grid-area: Seccion2;
-    background-color: #cececece;
+    background-color: #000000ce;
     border-width: 1px;
 }
 .Seccion3{
@@ -95,7 +96,7 @@ body{
     font-size: 140%;
     padding: 2%;
     grid-area: Seccion3;
-    background-color: #ebebeb;
+    background-color: #000000;
     border-width: 1px;
 }
 .Seccion4{
@@ -106,7 +107,7 @@ body{
     font-size: 110%;
     padding: 2%;
     grid-area: Seccion4;
-    background-color: #cececece;
+    background-color: #000000ce;
     border-width: 1px;
 }
 .pie{
@@ -114,6 +115,7 @@ body{
     margin: auto;
     width: 100%;
     height: fit-content;
+    color:white;
     grid-area: footer;
     background-color: #ebebeb;
     padding-top: 20px;
@@ -133,8 +135,8 @@ body{
     height: fit-content;
     border: none;
     margin: auto;
-    color: #FFFFFF;
-    background-color: #004e63;
+    color: #ffffff;
+    background-color: #003748;
     font-size: 80%;
     font-weight:bold;
     border-radius: 20px;
@@ -146,7 +148,7 @@ body{
 }
 .icons{
 
-    color: #004e63;
+    color: #003748;
     fill: #003748;
     
 
@@ -171,7 +173,7 @@ body{
     margin-right: 5px;
     font-size: 80%;
     font-weight:bold;
-    background-color: #006d8f;
+    background-color: #003748;
     border-radius: 10px;
     width: 30%;
     color: #ebebeb;
@@ -199,7 +201,7 @@ body{
 /*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
 .fotos{
     width: 70%;
-    background-color: #FFFFFF;
+    background-color: #000000;
     border-radius: 10px;
     padding: 30px;
     margin:auto;
@@ -210,7 +212,7 @@ body{
     gap: 20px;
 
 }
-.card{box-shadow: 5px 5px 5px #666666;
+.card{box-shadow: 5px 5px 5px #8a8a8a;
 margin: auto;}
 .foto{
     display: flex;
