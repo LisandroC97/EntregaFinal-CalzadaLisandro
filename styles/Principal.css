@@ -130,22 +130,20 @@ body{
     color: #ffffff;
 }
 /*Estilo de los botones*/
-.Botonmural{
-    width: 10%;
+.btn{
+    width: fit-content;
     height: fit-content;
     border: none;
     margin: auto;
     color: #ffffff;
     background-color: #003748;
     font-size: 80%;
-    font-weight:bold;
     border-radius: 20px;
-    padding-top: 15px;
-    display: grid;
-    place-content: center;
-
+    padding: 15px;
+    margin-top: 3%;
     
 }
+.btn:hover{background-color: #0093c0;}
 .icons{
 
     color: #003748;
@@ -358,10 +356,9 @@ padding: 5px;}
         font-size: 100%;
         margin: auto;
         text-align: center;}
-    .Botonmural{
-        width: 40%;
-        height: 50%;
+    .btn{
         font-size: 50%;
+        padding: 4px;
     }
     
     
@@ -502,10 +499,10 @@ font-size: 50%;
     font-size: 100%;
     margin: auto;
     text-align: center;}
-.Botonmural{
-    width: 40%;
-    height: 50%;
-    font-size: 50%;
+    .btn{
+        font-size: 70%;
+        padding: 5px;
+    }
 }
 
 .presentacion{
@@ -645,11 +642,10 @@ font-size: 50%;
     font-size: 130%;
     margin: auto;
     text-align: center;}
-.Botonmural{
-    width: 40%;
-    height: 50%;
-    font-size: 80%;
-}
+    .btn{
+        font-size: 70%;
+        padding: 8px;
+    }
 
 
 .presentacion{
@@ -795,16 +791,10 @@ font-size: 50%;
     font-size: 130%;
     margin: auto;
     text-align: center;}
-.Botonmural{
-    width: fit-content;
-    height: fit-content;
-    padding:1%;
-    height: 50%;
-    font-size: 90%;
-    top:10px;
-
-
-}
+    .btn{
+        font-size: 90%;
+        padding: 10px;
+    }
 
 
 .presentacion{
