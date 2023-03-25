@@ -1,0 +1,958 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "SofiaSansExtraCondensed";
+  src: url(../Fonts/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
+  src: url(../Fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf);
+}
+/*Estilo base*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*Grids para página principal*/
+body {
+  font-family: SofiaSansExtraCondensed;
+  font-size: large;
+  background-color: #ebebeb;
+  text-align: center;
+  width: 100%;
+  height: 2000px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-columns: auto;
+  grid-template-areas: "navbar" "presentacion" "Seccion1" "Seccion2" "Seccion3" "Seccion4" "footer";
+  gap: 5px;
+}
+
+.presentacion {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: 90%;
+  grid-area: presentacion;
+  color: #ebebeb;
+  font-weight: bold;
+  font-size: 200%;
+  padding: 5%;
+  background-color: #003748;
+  place-content: center;
+}
+
+.Seccion1 {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 140%;
+  color: #003748;
+  padding: 2%;
+  grid-area: Seccion1;
+  background-color: #ebebeb;
+  border-width: 1px;
+}
+
+.Seccion2 {
+  color: #000000;
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 140%;
+  padding: 2%;
+  grid-area: Seccion2;
+  background-color: #dddddd;
+  border-width: 1px;
+}
+
+.Seccion3 {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 140%;
+  padding: 2%;
+  grid-area: Seccion3;
+  background-color: #ebebeb;
+  border-width: 1px;
+}
+
+.Seccion4 {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 110%;
+  padding: 2%;
+  grid-area: Seccion4;
+  background-color: #dddddd;
+  border-width: 1px;
+}
+
+.pie {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #003748;
+  grid-area: footer;
+  background-color: #ebebeb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*estilo de los links, sin subrayado ni color*/
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Estilo de los botones*/
+.btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: none;
+  margin: auto;
+  color: #ffffff;
+  background-color: #003748;
+  font-size: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 3%;
+}
+.btn:hover {
+  background-color: #0093c0;
+}
+
+.icons {
+  color: #003748;
+  fill: #003748;
+}
+
+/*---------------------------------------------------- Certificaciones-------------------------------------------------------------*/
+/*Cards para la sección de experiencia y certificaciones*/
+.experienciaycertificaciones {
+  margin: auto;
+  background-color: #ebebeb;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.experienciaycertificaciones .expcard {
+  width: 35%;
+  margin: auto;
+  height: 260px;
+  font-size: 80%;
+  font-weight: bold;
+  background-color: #003748;
+  border-radius: 10px;
+  color: #ebebeb;
+  margin-top: 20px;
+}
+.experienciaycertificaciones .expcard .item {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 80%;
+  display: grid;
+  place-content: center;
+}
+
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+.carousel {
+  width: 80%;
+  margin: auto;
+}
+.carousel .carousel-caption {
+  margin: auto;
+  text-align: center;
+}
+.carousel .carousel-caption h2 {
+  text-align: center;
+  margin: auto;
+}
+.carousel .carousel-caption p {
+  text-align: center;
+  margin: auto;
+}
+
+/*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
+.fotos {
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.fotos .card {
+  box-shadow: 5px 5px 5px #8a8a8a;
+  margin: auto;
+}
+.fotos .card .foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.fotos .card .texto {
+  font-size: 100%;
+  margin: auto;
+}
+
+/*---------------------------------------------------- Biblioteca------------------------------------------------------------------*/
+.cardbook {
+  width: 15%;
+  height: 30%;
+  padding: 5px;
+}
+
+/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
+/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
+/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
+.encabezado {
+  background-color: #003748;
+  color: #ebebeb;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 110%;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-areas: "icon text";
+}
+
+.encabezado H1 {
+  grid-area: text;
+  place-content: center;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.encabezado img {
+  grid-area: icon;
+  place-content: left;
+  width: 40px;
+}
+
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+.certbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 500px;
+  height: 350px;
+}
+
+.card img {
+  width: 500px;
+  overflow-y: hidden;
+}
+
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+.ttlfoto {
+  font-size: 160%;
+  text-align: center;
+}
+
+.contenedorfotos {
+  background-color: rgb(241, 241, 241);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.contenedorfotos img {
+  box-shadow: 5px 5px 3px rgb(126, 126, 126);
+}
+
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+.containerlab {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #FFFFFF;
+  border: #666666 solid 1px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.busqueda {
+  font-size: 70%;
+}
+
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+@media (min-width: 0px) and (max-width: 480px) {
+  html, body, footer {
+    height: 100%;
+    width: 100%;
+  }
+  nav {
+    height: 10px;
+  }
+  footer {
+    font-size: 50%;
+  }
+  /*Retoques Index.html*/
+  .sectiontitle {
+    font-size: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn {
+    font-size: 50%;
+    padding: 4px;
+  }
+  .presentacion {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  .Title {
+    font-size: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Subtitle {
+    font-size: 40%;
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Description {
+    font-size: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .Seccion1 {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .experienciaycertificaciones {
+    margin: auto;
+    background-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .expcard {
+    font-size: 50%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+  .expcard h2 {
+    font-size: large;
+  }
+  .Seccion2 {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .Seccion3 {
+    display: grid;
+    place-content: center;
+  }
+  .fotos {
+    width: 90%;
+    height: 200px;
+    overflow: scroll;
+    padding: 20px;
+    font-size: small;
+    grid-template-rows: repeat(4fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "foto1 texto1" "foto2 texto2" "foto3 texto3" "foto4 texto4";
+  }
+  .card {
+    width: 60%;
+    height: 60%;
+  }
+  .foto {
+    width: 90%;
+    height: 90%;
+  }
+  .Seccion4 {
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    text-align: center;
+  }
+  .Seccion4 h3 {
+    margin: auto;
+    text-align: center;
+  }
+}
+.encabezado img {
+  grid-area: icon;
+  place-content: left;
+  width: 25px;
+}
+
+/*Retoques Certificaciones*/
+.secundaria h1 {
+  font-size: 120%;
+}
+
+.certbox {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  font-size: 60%;
+  padding-bottom: 30px;
+}
+
+.certbox div {
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 20px;
+}
+
+/*Retoques Biblioteca*/
+/*Retoques fotos*/
+.contenedorfotos {
+  width: 90%;
+  font-size: 50%;
+}
+
+/*Retoques Laboratorios*/
+@media (min-width: 481px) and (max-width: 768px) {
+  html, body, footer {
+    height: 100%;
+    width: 100%;
+  }
+  nav {
+    height: 10px;
+  }
+  footer {
+    font-size: 50%;
+  }
+  /*Retoques Index.html*/
+  .sectiontitle {
+    font-size: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn {
+    font-size: 70%;
+    padding: 5px;
+  }
+}
+.presentacion {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.Title {
+  font-size: 60%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Subtitle {
+  font-size: 40%;
+  width: 95%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Description {
+  font-size: 35%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.Seccion1 {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.experienciaycertificaciones {
+  margin: auto;
+  background-color: #ebebeb;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expcard {
+  font-size: 50%;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+
+.expcard h2 {
+  font-size: large;
+}
+
+.Seccion2 {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.carousel {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  font-size: 20%;
+  text-align: center;
+}
+
+.carousel p {
+  color: #FFFFFF;
+  font-size: small;
+}
+
+.carousel h2 {
+  color: #FFFFFF;
+  font-size: small;
+}
+
+.Seccion3 {
+  display: grid;
+  place-content: center;
+}
+
+.fotos {
+  width: 90%;
+  height: 200px;
+  overflow: scroll;
+  padding: 20px;
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 40%;
+  height: 60%;
+}
+
+.foto {
+  width: 90%;
+  height: 90%;
+}
+
+.Seccion4 {
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 150%;
+  text-align: center;
+}
+
+.Seccion4 h3 {
+  margin: auto;
+  text-align: center;
+}
+
+.encabezado img {
+  grid-area: icon;
+  place-content: left;
+  width: 30px;
+}
+
+/*Retoques Certificaciones*/
+.secundaria h1 {
+  font-size: 120%;
+}
+
+.certbox {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  font-size: 60%;
+  padding-bottom: 30px;
+}
+
+.certbox div {
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 20px;
+}
+
+/*Retoques Biblioteca*/
+/*Retoques fotos*/
+.contenedorfotos {
+  width: 90%;
+  font-size: 50%;
+}
+
+/*Retoques Laboratorios*/
+@media (min-width: 769px) and (max-width: 1278px) {
+  html, body, footer {
+    height: 100%;
+    width: 100%;
+  }
+  nav {
+    height: 10px;
+  }
+  footer {
+    font-size: 50%;
+  }
+  /*Retoques Index.html*/
+  .sectiontitle {
+    font-size: 130%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn {
+    font-size: 70%;
+    padding: 8px;
+  }
+  .presentacion {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  .Title {
+    font-size: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Subtitle {
+    font-size: 70%;
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Description {
+    font-size: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .Seccion1 {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .experienciaycertificaciones {
+    margin: auto;
+    background-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .expcard {
+    font-size: 70%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+  .expcard h2 {
+    font-size: xx-large;
+  }
+  .Seccion2 {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .carousel {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    font-size: 20%;
+  }
+  .carousel p {
+    margin: auto;
+    color: #FFFFFF;
+    font-size: large;
+  }
+  .carousel h2 {
+    color: #FFFFFF;
+    font-size: xx-large;
+  }
+  .Seccion3 {
+    display: grid;
+    place-content: center;
+  }
+  .fotos {
+    width: 90%;
+    height: 600px;
+    overflow: scroll;
+    padding: 80px;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .card {
+    width: 40%;
+    height: 40%;
+  }
+  .foto {
+    width: 60%;
+    height: 60%;
+  }
+  .Seccion4 {
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    text-align: center;
+  }
+  .Seccion4 h3 {
+    margin: auto;
+    text-align: center;
+  }
+}
+.encabezado img {
+  grid-area: icon;
+  place-content: left;
+  width: 25px;
+  margin-top: 7%;
+}
+
+/*Retoques Certificaciones*/
+.secundaria h1 {
+  font-size: 120%;
+}
+
+.certbox {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  font-size: 60%;
+  padding-bottom: 30px;
+}
+
+.certbox div {
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 20px;
+}
+
+/*Retoques Biblioteca*/
+/*Retoques fotos*/
+.contenedorfotos {
+  width: 90%;
+  font-size: 50%;
+}
+
+/*Retoques footer*/
+.pie {
+  font-size: 110%;
+}
+
+/*Retoques Laboratorios*/
+@media (min-width: 1278px) {
+  html, body, footer {
+    height: 100%;
+    width: 100%;
+  }
+  nav {
+    height: 10px;
+  }
+  footer {
+    font-size: 50%;
+  }
+  /*Retoques Index.html*/
+  .sectiontitle {
+    font-size: 130%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn {
+    font-size: 90%;
+    padding: 10px;
+  }
+  .presentacion {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  .Title {
+    font-size: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Subtitle {
+    font-size: 70%;
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Description {
+    font-size: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .Seccion1 {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .experienciaycertificaciones {
+    margin: auto;
+    background-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .expcard {
+    font-size: 70%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+  .expcard h2 {
+    font-size: xx-large;
+  }
+  .Seccion2 {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .carousel {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    font-size: 20%;
+  }
+  .carousel p {
+    color: #FFFFFF;
+    font-size: large;
+  }
+  .carousel h2 {
+    color: #FFFFFF;
+    font-size: xx-large;
+  }
+  .Seccion3 {
+    display: grid;
+    place-content: center;
+  }
+  .fotos {
+    width: 95%;
+    height: 800px;
+    overflow: scroll;
+    padding: 80px;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .card {
+    width: 30%;
+    height: 40%;
+  }
+  .foto {
+    width: 90%;
+    height: 90%;
+  }
+  .Seccion4 {
+    margin: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: xx-large;
+  }
+  .Seccion4 h3 {
+    margin: auto;
+    text-align: center;
+  }
+}
+/*Retoques Certificaciones*/
+.secundaria h1 {
+  font-size: 120%;
+}
+
+.certbox {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  font-size: 60%;
+  padding-bottom: 30px;
+}
+
+.certbox div {
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 20px;
+}
+
+/*Retoques Biblioteca*/
+/*Retoques fotos*/
+.contenedorfotos {
+  width: 90%;
+  font-size: 50%;
+}/*# sourceMappingURL=style.css.map */
