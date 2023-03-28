@@ -1,319 +1,45 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "SofiaSansExtraCondensed";
-  src: url(../Fonts/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
-  src: url(../Fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf);
-}
-/*Estilo base*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-/*---------------------------------------------------- Index----------------------------------------------------------------*/
-/*---------------------------------------------------- Index----------------------------------------------------------------*/
-/*---------------------------------------------------- Index----------------------------------------------------------------*/
-/*---------------------------------------------------- Index----------------------------------------------------------------*/
-/*---------------------------------------------------- Index----------------------------------------------------------------*/
-/*---------------------------------------------------- Index----------------------------------------------------------------*/
-/*Grids para página principal*/
-body {
-  font-family: SofiaSansExtraCondensed;
-  font-size: large;
-  background-color: #ebebeb;
-  text-align: center;
-  width: 100%;
-  height: 2000px;
-  display: grid;
-  grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
-  grid-template-columns: auto;
-  grid-template-areas: "navbar" "presentacion" "Seccion1" "Seccion2" "Seccion3" "Seccion4" "footer";
-  gap: 5px;
-}
-
-.presentacion {
-  display: grid;
-  margin: auto;
-  width: 100%;
-  height: 90%;
-  grid-area: presentacion;
-  color: #ebebeb;
-  font-weight: bold;
-  font-size: 200%;
-  padding: 5%;
-  background-color: #003748;
-  place-content: center;
-}
-
-.Seccion1 {
-  display: grid;
-  width: 100%;
-  margin: auto;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-size: 140%;
-  color: #003748;
-  padding: 2%;
-  grid-area: Seccion1;
-  background-color: #ebebeb;
-  border-width: 1px;
-}
-
-.Seccion2 {
-  color: #000000;
-  display: grid;
-  margin: auto;
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-size: 140%;
-  padding: 2%;
-  grid-area: Seccion2;
-  background-color: #dddddd;
-  border-width: 1px;
-}
-
-.Seccion3 {
-  display: grid;
-  margin: auto;
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-size: 140%;
-  padding: 2%;
-  grid-area: Seccion3;
-  background-color: #ebebeb;
-  border-width: 1px;
-}
-
-.Seccion4 {
-  display: grid;
-  width: 100%;
-  margin: auto;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-size: 110%;
-  padding: 2%;
-  grid-area: Seccion4;
-  background-color: #dddddd;
-  border-width: 1px;
-}
-
-.pie {
-  display: grid;
-  margin: auto;
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  color: #003748;
-  grid-area: footer;
-  background-color: #ebebeb;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/*estilo de los links, sin subrayado ni color*/
-.link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-/*Estilo de los botones*/
-.btn {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  border: none;
-  margin: auto;
-  color: #ffffff;
-  background-color: #003748;
-  font-size: 80%;
-  border-radius: 20px;
-  padding: 15px;
-  margin-top: 3%;
-}
-.btn:hover {
-  background-color: #0093c0;
-}
-
-.icons {
-  color: #003748;
-  fill: #003748;
-}
-
-/*---------------------------------------------------- Certificaciones-------------------------------------------------------------*/
-/*Cards para la sección de experiencia y certificaciones*/
-.experienciaycertificaciones {
-  margin: auto;
-  background-color: #ebebeb;
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-.experienciaycertificaciones .expcard {
-  width: 35%;
-  margin: auto;
-  height: 260px;
-  font-size: 80%;
-  font-weight: bold;
-  background-color: #003748;
-  border-radius: 10px;
-  color: #ebebeb;
-  margin-top: 20px;
-}
-.experienciaycertificaciones .expcard .item {
-  margin: auto;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 80%;
-  display: grid;
-  place-content: center;
-}
-
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
-.carousel {
-  width: 80%;
-  margin: auto;
-}
-.carousel .carousel-caption {
-  margin: auto;
-  text-align: center;
-}
-.carousel .carousel-caption h2 {
-  text-align: center;
-  margin: auto;
-}
-.carousel .carousel-caption p {
-  text-align: center;
-  margin: auto;
-}
-
-/*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
-.fotos {
-  width: 70%;
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 30px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-}
-.fotos .card {
-  box-shadow: 5px 5px 5px #8a8a8a;
-  margin: auto;
-}
-.fotos .card .foto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  place-content: center;
-  text-align: center;
-  margin: auto;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-}
-.fotos .card .texto {
-  font-size: 100%;
-  margin: auto;
-}
-
-/*---------------------------------------------------- Biblioteca------------------------------------------------------------------*/
+/*Imports*/ /*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
 .cardbook {
   width: 15%;
   height: 30%;
   padding: 5px;
 }
 
-/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
-/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
-/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
-.encabezado {
-  background-color: #003748;
-  color: #ebebeb;
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-size: 110%;
-  display: grid;
-  grid-template-columns: 1fr 10fr;
-  grid-template-areas: "icon text";
-}
-
-.encabezado H1 {
-  grid-area: text;
-  place-content: center;
-  margin-right: 10%;
-  margin-top: 1%;
-}
-
-.encabezado img {
-  grid-area: icon;
-  place-content: left;
-  width: 40px;
-}
-
-/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
-/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
-/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
-/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
-/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
 /*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
 .certbox {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
-
-.card {
+.certbox .card {
   width: 500px;
   height: 350px;
 }
-
-.card img {
+.certbox .card img {
   width: 500px;
   overflow-y: hidden;
 }
 
-/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
-/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
-/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
-/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
-/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
-/*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
 /*---------------------------------------------------- Fotos----------------------------------------------------------------*/
 /*---------------------------------------------------- Fotos----------------------------------------------------------------*/
 /*---------------------------------------------------- Fotos----------------------------------------------------------------*/
 /*---------------------------------------------------- Fotos----------------------------------------------------------------*/
 /*---------------------------------------------------- Fotos----------------------------------------------------------------*/
 /*---------------------------------------------------- Fotos----------------------------------------------------------------*/
-.ttlfoto {
-  font-size: 160%;
-  text-align: center;
-}
-
 .contenedorfotos {
   background-color: rgb(241, 241, 241);
   padding: 40px;
   border-radius: 5px;
 }
-
+.contenedorfotos .ttlfoto {
+  font-size: 160%;
+  text-align: center;
+}
 .contenedorfotos img {
   box-shadow: 5px 5px 3px rgb(126, 126, 126);
 }
 
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
 /*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
 .containerlab {
   width: 90%;
@@ -330,8 +56,7 @@ body {
   margin-left: 10px;
   padding: 20px;
 }
-
-.busqueda {
+.containerlab .busqueda {
   font-size: 70%;
 }
 
@@ -955,4 +680,256 @@ body {
 .contenedorfotos {
   width: 90%;
   font-size: 50%;
+}
+
+@font-face {
+  font-family: "SofiaSansExtraCondensed";
+  src: url(../Fonts/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
+  src: url(../Fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf);
+}
+/*Estilo base*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*---------------------------------------------------- Index----------------------------------------------------------------*/
+/*Grids para página principal*/
+body {
+  font-family: SofiaSansExtraCondensed;
+  font-size: large;
+  background-color: #ebebeb;
+  text-align: center;
+  width: 100%;
+  height: 2000px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-columns: auto;
+  grid-template-areas: "navbar" "presentacion" "Seccion1" "Seccion2" "Seccion3" "Seccion4" "footer";
+  gap: 5px;
+}
+
+.presentacion {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: 90%;
+  grid-area: presentacion;
+  color: #ebebeb;
+  font-weight: bold;
+  font-size: 200%;
+  padding: 5%;
+  background-color: #003748;
+  place-content: center;
+}
+
+.Seccion1 {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 140%;
+  color: #003748;
+  padding: 2%;
+  grid-area: Seccion1;
+  background-color: #ebebeb;
+  border-width: 1px;
+}
+
+.Seccion2 {
+  color: #000000;
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 140%;
+  padding: 2%;
+  grid-area: Seccion2;
+  background-color: #dddddd;
+  border-width: 1px;
+}
+
+.Seccion3 {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 140%;
+  padding: 2%;
+  grid-area: Seccion3;
+  background-color: #ebebeb;
+  border-width: 1px;
+}
+
+.Seccion4 {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 110%;
+  padding: 2%;
+  grid-area: Seccion4;
+  background-color: #dddddd;
+  border-width: 1px;
+}
+
+.pie {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #003748;
+  grid-area: footer;
+  background-color: #ebebeb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*estilo de los links, sin subrayado ni color*/
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Estilo de los botones*/
+.btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: none;
+  margin: auto;
+  color: #ffffff;
+  background-color: #003748;
+  font-size: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 3%;
+}
+.btn:hover {
+  background-color: #0093c0;
+}
+
+.icons {
+  color: #003748;
+  fill: #003748;
+}
+
+/*---------------------------------------------------- Certificaciones-------------------------------------------------------------*/
+/*Cards para la sección de experiencia y certificaciones*/
+.experienciaycertificaciones {
+  margin: auto;
+  background-color: #ebebeb;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.experienciaycertificaciones .expcard {
+  width: 35%;
+  margin: auto;
+  height: 260px;
+  font-size: 80%;
+  font-weight: bold;
+  background-color: #003748;
+  border-radius: 10px;
+  color: #ebebeb;
+  margin-top: 20px;
+}
+.experienciaycertificaciones .expcard .item {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 80%;
+  display: grid;
+  place-content: center;
+}
+
+/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+.carousel {
+  width: 80%;
+  margin: auto;
+}
+.carousel .carousel-caption {
+  margin: auto;
+  text-align: center;
+}
+.carousel .carousel-caption h2 {
+  text-align: center;
+  margin: auto;
+}
+.carousel .carousel-caption p {
+  text-align: center;
+  margin: auto;
+}
+
+/*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
+.fotos {
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.fotos .card {
+  box-shadow: 5px 5px 5px #8a8a8a;
+  margin: auto;
+}
+.fotos .card .foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.fotos .card .texto {
+  font-size: 100%;
+  margin: auto;
+}
+
+/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
+/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
+/*-----------------------------------------------------Header Subpáginas-----------------------------------------------------------*/
+.encabezado {
+  background-color: #003748;
+  color: #ebebeb;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 110%;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-areas: "icon text";
+}
+.encabezado H1 {
+  grid-area: text;
+  place-content: center;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+.encabezado img {
+  grid-area: icon;
+  place-content: left;
+  width: 40px;
 }/*# sourceMappingURL=style.css.map */
