@@ -1,12 +1,12 @@
 @charset "UTF-8";
-/*Imports*/ /*---------------------------------------------------- Biblioteca----------------------------------------------------------------*/
+/*Imports*/ /*----------------------------------------------------Partial Biblioteca----------------------------------------------------------------*/
 .cardbook {
   width: 15%;
   height: 30%;
   padding: 5px;
 }
 
-/*---------------------------------------------------- Certificaciones----------------------------------------------------------------*/
+/*----------------------------------------------------Partial Certificaciones----------------------------------------------------------------*/
 .certbox {
   display: flex;
   flex-wrap: wrap;
@@ -21,26 +21,23 @@
   overflow-y: hidden;
 }
 
-/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
-/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
-/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
-/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
-/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
-/*---------------------------------------------------- Fotos----------------------------------------------------------------*/
+/*----------------------------------------------------Partial Fotos----------------------------------------------------------------*/
 .contenedorfotos {
   background-color: rgb(241, 241, 241);
   padding: 40px;
   border-radius: 5px;
+  margin: auto;
 }
 .contenedorfotos .ttlfoto {
-  font-size: 160%;
+  font-size: 200%;
   text-align: center;
 }
 .contenedorfotos img {
+  width: 500px;
   box-shadow: 5px 5px 3px rgb(126, 126, 126);
 }
 
-/*---------------------------------------------------- Laboratorios----------------------------------------------------------------*/
+/*----------------------------------------------------Partial Laboratorios----------------------------------------------------------------*/
 .containerlab {
   width: 90%;
   height: -moz-fit-content;
@@ -60,11 +57,7 @@
   font-size: 70%;
 }
 
-/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
-/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
-/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
-/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
-/*-----------------------------------------------------Media queries---------------------------------------------------------------*/
+/*-----------------------------------------------------Partial Media queries---------------------------------------------------------------*/
 @media (min-width: 0px) and (max-width: 480px) {
   html, body, footer {
     height: 100%;
@@ -78,7 +71,7 @@
   }
   /*Retoques Index.html*/
   .sectiontitle {
-    font-size: 100%;
+    font-size: 140%;
     margin: auto;
     text-align: center;
   }
@@ -92,19 +85,19 @@
     height: fit-content;
     margin: auto;
   }
-  .Title {
-    font-size: 60%;
+  .presentacion .Title {
+    font-size: 100%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Subtitle {
-    font-size: 40%;
+  .presentacion .Subtitle {
+    font-size: 60%;
     width: 95%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Description {
-    font-size: 35%;
+  .presentacion .Description {
+    font-size: 45%;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -113,7 +106,7 @@
     height: -moz-fit-content;
     height: fit-content;
   }
-  .experienciaycertificaciones {
+  .Seccion1 .experienciaycertificaciones {
     margin: auto;
     background-color: #ebebeb;
     width: 100%;
@@ -122,8 +115,8 @@
     flex-direction: column;
     justify-content: center;
   }
-  .expcard {
-    font-size: 50%;
+  .Seccion1 .experienciaycertificaciones .expcard {
+    font-size: 60%;
     margin: auto;
     width: 80%;
     text-align: center;
@@ -131,18 +124,26 @@
     height: fit-content;
     padding: 10px;
   }
-  .expcard h2 {
+  .Seccion1 .experienciaycertificaciones h2 {
     font-size: large;
   }
   .Seccion2 {
     height: -moz-fit-content;
     height: fit-content;
   }
+  .Seccion2 .carousel-item h2 {
+    margin: auto;
+    font-size: medium;
+  }
+  .Seccion2 .carousel-item p {
+    margin: auto;
+    font-size: medium;
+  }
   .Seccion3 {
     display: grid;
     place-content: center;
   }
-  .fotos {
+  .Seccion3 .fotos {
     width: 90%;
     height: 200px;
     overflow: scroll;
@@ -152,11 +153,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "foto1 texto1" "foto2 texto2" "foto3 texto3" "foto4 texto4";
   }
-  .card {
+  .Seccion3 .fotos .card {
     width: 60%;
     height: 60%;
   }
-  .foto {
+  .Seccion3 .fotos .card .foto {
     width: 90%;
     height: 90%;
   }
@@ -169,6 +170,7 @@
   .Seccion4 h3 {
     margin: auto;
     text-align: center;
+    font-size: medium;
   }
 }
 .encabezado img {
@@ -737,7 +739,7 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   font-size: 140%;
-  color: #003748;
+  color: #000000;
   padding: 2%;
   grid-area: Seccion1;
   background-color: #ebebeb;
@@ -932,4 +934,8 @@ body {
   grid-area: icon;
   place-content: left;
   width: 40px;
+}
+.encabezado a {
+  color: inherit;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

@@ -12,10 +12,6 @@
     src: url(../Fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf);
 }
 
-
-
-
-
 /*Estilo base*/
 *{  
     box-sizing: border-box;
@@ -74,7 +70,7 @@ body{
     margin: auto;
     height: fit-content;
     font-size: 140%;
-    color: #003748;
+    color: #000000;
     padding: 2%;
     grid-area: Seccion1;
     background-color: #ebebeb;
@@ -148,6 +144,7 @@ body{
     margin-top: 3%;
 
         &:hover{background-color: #0093c0;}
+        
 }
 
 .icons{
@@ -264,7 +261,11 @@ body{
         img{grid-area: icon;
             place-content: left;
             width: 40px;}
-    
+        
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
 }
 
 
