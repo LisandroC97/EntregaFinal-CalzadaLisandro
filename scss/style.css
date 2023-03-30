@@ -60,11 +60,11 @@
 /*-----------------------------------------------------Partial Media queries---------------------------------------------------------------*/
 @media (min-width: 0px) and (max-width: 480px) {
   html, body, footer {
-    height: 100%;
+    height: 90%;
     width: 100%;
   }
   nav {
-    height: 10px;
+    height: 10%;
   }
   footer {
     font-size: 50%;
@@ -80,9 +80,9 @@
     padding: 4px;
   }
   .presentacion {
-    width: 100%;
     height: -moz-fit-content;
     height: fit-content;
+    width: 100%;
     margin: auto;
   }
   .presentacion .Title {
@@ -219,7 +219,7 @@
   }
   /*Retoques Index.html*/
   .sectiontitle {
-    font-size: 100%;
+    font-size: 120%;
     margin: auto;
     text-align: center;
   }
@@ -234,22 +234,19 @@
   height: fit-content;
   margin: auto;
 }
-
-.Title {
-  font-size: 60%;
+.presentacion .Title {
+  font-size: 80%;
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.Subtitle {
-  font-size: 40%;
+.presentacion .Subtitle {
+  font-size: 60%;
   width: 95%;
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.Description {
-  font-size: 35%;
+.presentacion .Description {
+  font-size: 45%;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
@@ -268,53 +265,65 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  /*Retoques Certificaciones*/
+  /*Retoques Biblioteca*/
+  /*Retoques fotos*/
+  /*Retoques Laboratorios*/
+  /*Retoques Certificaciones*/
+  /*Retoques Biblioteca*/
+  /*Retoques fotos*/
+  /*Retoques footer*/
+  /*Retoques Laboratorios*/
+  /*Retoques Certificaciones*/
+  /*Retoques Biblioteca*/
+  /*Retoques fotos*/
 }
-
-.expcard {
-  font-size: 50%;
+.experienciaycertificaciones .expcard {
+  font-size: 40%;
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
 }
-
-.expcard h2 {
-  font-size: large;
+.experienciaycertificaciones .expcard h2 {
+  width: 100%;
+  font-size: 100%;
 }
-
-.Seccion2 {
+.experienciaycertificaciones .expcard ul {
+  overflow-y: scroll;
+}
+.experienciaycertificaciones .expcard ul li {
+  width: 100%;
+  font-size: 80%;
+}
+.experienciaycertificaciones .Seccion2 {
   height: -moz-fit-content;
   height: fit-content;
 }
-
-.carousel {
+.experienciaycertificaciones .carousel {
   width: 90%;
   height: 100%;
   margin: auto;
   font-size: 20%;
   text-align: center;
 }
-
-.carousel p {
+.experienciaycertificaciones .carousel p {
   color: #FFFFFF;
   font-size: small;
 }
-
-.carousel h2 {
+.experienciaycertificaciones .carousel .carousel h2 {
   color: #FFFFFF;
   font-size: small;
 }
-
-.Seccion3 {
+.experienciaycertificaciones .Seccion3 {
   display: grid;
   place-content: center;
 }
-
-.fotos {
+.experienciaycertificaciones .fotos {
   width: 90%;
-  height: 200px;
+  height: 400px;
   overflow: scroll;
   padding: 20px;
   font-size: small;
@@ -322,111 +331,100 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
-
-.card {
+.experienciaycertificaciones .card {
   width: 40%;
-  height: 60%;
+  height: 50%;
+  overflow: hidden;
 }
-
-.foto {
+.experienciaycertificaciones .card .foto {
   width: 90%;
   height: 90%;
 }
-
-.Seccion4 {
+.experienciaycertificaciones .Seccion4 {
   height: -moz-fit-content;
   height: fit-content;
   font-size: 150%;
   text-align: center;
 }
-
-.Seccion4 h3 {
+.experienciaycertificaciones .Seccion4 h3 {
   margin: auto;
   text-align: center;
 }
-
-.encabezado img {
+.experienciaycertificaciones .encabezado img {
   grid-area: icon;
   place-content: left;
   width: 30px;
 }
-
-/*Retoques Certificaciones*/
-.secundaria h1 {
+.experienciaycertificaciones .secundaria h1 {
   font-size: 120%;
 }
-
-.certbox {
+.experienciaycertificaciones .certbox {
   width: 80%;
   height: 100%;
   margin: auto;
   font-size: 60%;
   padding-bottom: 30px;
 }
-
-.certbox div {
+.experienciaycertificaciones div {
   height: -moz-fit-content;
   height: fit-content;
   gap: 20px;
 }
-
-/*Retoques Biblioteca*/
-/*Retoques fotos*/
-.contenedorfotos {
+.experienciaycertificaciones .contenedorfotos {
   width: 90%;
   font-size: 50%;
 }
-
-/*Retoques Laboratorios*/
 @media (min-width: 769px) and (max-width: 1278px) {
-  html, body, footer {
+  .experienciaycertificaciones {
+    /*Retoques Index.html*/
+  }
+  .experienciaycertificaciones html, .experienciaycertificaciones body, .experienciaycertificaciones footer {
     height: 100%;
     width: 100%;
   }
-  nav {
+  .experienciaycertificaciones nav {
     height: 10px;
   }
-  footer {
+  .experienciaycertificaciones footer {
     font-size: 50%;
   }
-  /*Retoques Index.html*/
-  .sectiontitle {
-    font-size: 130%;
+  .experienciaycertificaciones .sectiontitle {
+    font-size: 120%;
     margin: auto;
     text-align: center;
   }
-  .btn {
+  .experienciaycertificaciones .btn {
     font-size: 70%;
     padding: 8px;
   }
-  .presentacion {
+  .experienciaycertificaciones .presentacion {
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     margin: auto;
   }
-  .Title {
+  .experienciaycertificaciones .presentacion .Title {
     font-size: 90%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Subtitle {
+  .experienciaycertificaciones .presentacion .Subtitle {
     font-size: 70%;
     width: 95%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Description {
+  .experienciaycertificaciones .presentacion .Description {
     font-size: 60%;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
   }
-  .Seccion1 {
+  .experienciaycertificaciones .Seccion1 {
     height: -moz-fit-content;
     height: fit-content;
   }
-  .experienciaycertificaciones {
+  .experienciaycertificaciones .experienciaycertificaciones {
     margin: auto;
     background-color: #ebebeb;
     width: 100%;
@@ -435,42 +433,46 @@
     flex-direction: column;
     justify-content: center;
   }
-  .expcard {
+  .experienciaycertificaciones .experienciaycertificaciones .expcard {
     font-size: 70%;
     margin: auto;
-    width: 80%;
+    width: -moz-fit-content;
+    width: fit-content;
     text-align: center;
     height: -moz-fit-content;
     height: fit-content;
     padding: 10px;
   }
-  .expcard h2 {
-    font-size: xx-large;
+  .experienciaycertificaciones .experienciaycertificaciones h2 {
+    font-size: x-large;
   }
-  .Seccion2 {
+  .experienciaycertificaciones .experienciaycertificaciones ul li {
+    font-size: large;
+  }
+  .experienciaycertificaciones .Seccion2 {
     height: -moz-fit-content;
     height: fit-content;
   }
-  .carousel {
+  .experienciaycertificaciones .carousel {
     width: 90%;
     height: 100%;
     margin: auto;
     font-size: 20%;
   }
-  .carousel p {
+  .experienciaycertificaciones .carousel p {
     margin: auto;
     color: #FFFFFF;
     font-size: large;
   }
-  .carousel h2 {
+  .experienciaycertificaciones .carousel h2 {
     color: #FFFFFF;
     font-size: xx-large;
   }
-  .Seccion3 {
+  .experienciaycertificaciones .Seccion3 {
     display: grid;
     place-content: center;
   }
-  .fotos {
+  .experienciaycertificaciones .fotos {
     width: 90%;
     height: 600px;
     overflow: scroll;
@@ -480,122 +482,114 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .card {
+  .experienciaycertificaciones .card {
     width: 40%;
     height: 40%;
+    overflow: hidden;
   }
-  .foto {
+  .experienciaycertificaciones .foto {
     width: 60%;
     height: 60%;
   }
-  .Seccion4 {
+  .experienciaycertificaciones .Seccion4 {
     height: -moz-fit-content;
     height: fit-content;
-    font-size: xx-large;
     text-align: center;
   }
-  .Seccion4 h3 {
+  .experienciaycertificaciones .Seccion4 h3 {
+    font-size: large;
     margin: auto;
     text-align: center;
   }
 }
-.encabezado img {
+.experienciaycertificaciones .encabezado img {
   grid-area: icon;
   place-content: left;
   width: 25px;
   margin-top: 7%;
 }
-
-/*Retoques Certificaciones*/
-.secundaria h1 {
+.experienciaycertificaciones .secundaria h1 {
   font-size: 120%;
 }
-
-.certbox {
+.experienciaycertificaciones .certbox {
   width: 80%;
   height: 100%;
   margin: auto;
   font-size: 60%;
   padding-bottom: 30px;
 }
-
-.certbox div {
+.experienciaycertificaciones .certbox div {
   height: -moz-fit-content;
   height: fit-content;
   gap: 20px;
 }
-
-/*Retoques Biblioteca*/
-/*Retoques fotos*/
-.contenedorfotos {
+.experienciaycertificaciones .contenedorfotos {
   width: 90%;
   font-size: 50%;
 }
-
-/*Retoques footer*/
-.pie {
+.experienciaycertificaciones .pie {
   font-size: 110%;
 }
-
-/*Retoques Laboratorios*/
 @media (min-width: 1278px) {
-  html, body, footer {
+  .experienciaycertificaciones {
+    /*Retoques Index.html*/
+  }
+  .experienciaycertificaciones html, .experienciaycertificaciones body, .experienciaycertificaciones footer {
     height: 100%;
     width: 100%;
   }
-  nav {
+  .experienciaycertificaciones nav {
     height: 10px;
   }
-  footer {
+  .experienciaycertificaciones footer {
     font-size: 50%;
   }
-  /*Retoques Index.html*/
-  .sectiontitle {
+  .experienciaycertificaciones .sectiontitle {
     font-size: 130%;
     margin: auto;
     text-align: center;
   }
-  .btn {
+  .experienciaycertificaciones .btn {
     font-size: 90%;
     padding: 10px;
   }
-  .presentacion {
+  .experienciaycertificaciones .presentacion {
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     margin: auto;
   }
-  .Title {
+  .experienciaycertificaciones .presentacion .Title {
     font-size: 90%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Subtitle {
+  .experienciaycertificaciones .presentacion .Subtitle {
     font-size: 70%;
     width: 95%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Description {
+  .experienciaycertificaciones .presentacion .Description {
     font-size: 60%;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
   }
-  .Seccion1 {
+  .experienciaycertificaciones .Seccion1 {
     height: -moz-fit-content;
     height: fit-content;
+    width: 100%;
   }
-  .experienciaycertificaciones {
+  .experienciaycertificaciones .experienciaycertificaciones {
     margin: auto;
     background-color: #ebebeb;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
   }
-  .expcard {
+  .experienciaycertificaciones .experienciaycertificaciones .expcard {
     font-size: 70%;
     margin: auto;
     width: 80%;
@@ -604,32 +598,32 @@
     height: fit-content;
     padding: 10px;
   }
-  .expcard h2 {
+  .experienciaycertificaciones .experienciaycertificaciones .expcard h2 {
     font-size: xx-large;
   }
-  .Seccion2 {
+  .experienciaycertificaciones .Seccion2 {
     height: -moz-fit-content;
     height: fit-content;
   }
-  .carousel {
+  .experienciaycertificaciones .carousel {
     width: 90%;
     height: 100%;
     margin: auto;
     font-size: 20%;
   }
-  .carousel p {
+  .experienciaycertificaciones .carousel p {
     color: #FFFFFF;
     font-size: large;
   }
-  .carousel h2 {
+  .experienciaycertificaciones .carousel h2 {
     color: #FFFFFF;
     font-size: xx-large;
   }
-  .Seccion3 {
+  .experienciaycertificaciones .Seccion3 {
     display: grid;
     place-content: center;
   }
-  .fotos {
+  .experienciaycertificaciones .fotos {
     width: 95%;
     height: 800px;
     overflow: scroll;
@@ -639,47 +633,41 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .card {
+  .experienciaycertificaciones .card {
     width: 30%;
     height: 40%;
   }
-  .foto {
+  .experienciaycertificaciones .card .foto {
     width: 90%;
     height: 90%;
   }
-  .Seccion4 {
+  .experienciaycertificaciones .Seccion4 {
     margin: auto;
     height: -moz-fit-content;
     height: fit-content;
     font-size: xx-large;
   }
-  .Seccion4 h3 {
+  .experienciaycertificaciones .Seccion4 h3 {
     margin: auto;
     text-align: center;
   }
 }
-/*Retoques Certificaciones*/
-.secundaria h1 {
+.experienciaycertificaciones .secundaria h1 {
   font-size: 120%;
 }
-
-.certbox {
+.experienciaycertificaciones .certbox {
   width: 80%;
   height: 100%;
   margin: auto;
   font-size: 60%;
   padding-bottom: 30px;
 }
-
-.certbox div {
+.experienciaycertificaciones .certbox div {
   height: -moz-fit-content;
   height: fit-content;
   gap: 20px;
 }
-
-/*Retoques Biblioteca*/
-/*Retoques fotos*/
-.contenedorfotos {
+.experienciaycertificaciones .contenedorfotos {
   width: 90%;
   font-size: 50%;
 }
