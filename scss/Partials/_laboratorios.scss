@@ -1,7 +1,16 @@
 
 /*----------------------------------------------------Partial Laboratorios----------------------------------------------------------------*/
+.sectiontitle{margin: auto;
+}
 
+.busqueda{
+    
+    margin: auto;
+    width: 90%;
+    height: fit-content;
+    font-size: 70%;}
 .containerlab{
+    position: relative;
     width: 90%;
     height: fit-content;
     background-color: #FFFFFF;
@@ -11,15 +20,5 @@
     flex-wrap: wrap;
     flex-direction: column;
     text-align: left;
-    margin-top: 30px;
-    margin-left: 10px;
-    padding: 20px;
-
-    .busqueda{font-size: 70%;}
-
 }
-
-
-
-
 
