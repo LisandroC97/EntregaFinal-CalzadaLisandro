@@ -112,6 +112,9 @@
     background-color: #ebebeb;
     width: 100%;
   }
+  .Seccion1 .experienciaycertificaciones .item {
+    font-size: 80%;
+  }
   .Seccion2 {
     height: -moz-fit-content;
     height: fit-content;
@@ -123,15 +126,14 @@
     font-size: 20%;
     text-align: center;
   }
-  .carousel p {
-    display: flex;
-    color: #FFFFFF;
-    font-size: small;
+  .carousel .carousel-caption {
+    font-size: 30%;
   }
-  .carousel h2 {
-    display: flex;
-    color: #FFFFFF;
-    font-size: small;
+  .carousel .carousel-caption h5 {
+    margin: auto;
+  }
+  .carousel .carousel-caption p {
+    margin: auto;
   }
 }
 .Seccion3 {
@@ -141,7 +143,7 @@
 
 .fotos {
   width: 90%;
-  height: 200px;
+  height: 400px;
   overflow: scroll;
   padding: 20px;
   font-size: small;
@@ -149,15 +151,17 @@
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "foto1 texto1" "foto2 texto2" "foto3 texto3" "foto4 texto4";
 }
-
-.card {
-  width: 60%;
-  height: 60%;
+.fotos .card-custom {
+  border: solid black 1px;
+  box-shadow: 3px 3px 3px gray;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
 }
-
-.foto {
+.fotos .card-custom .foto {
+  overflow: hidden;
   width: 90%;
-  height: 90%;
+  height: 60%;
 }
 
 .Seccion4 {
@@ -170,6 +174,7 @@
 .Seccion4 h3 {
   margin: auto;
   text-align: center;
+  font-size: x-large;
 }
 
 .encabezado img {
@@ -218,7 +223,7 @@
   }
   /*Retoques Index.html*/
   .sectiontitle {
-    font-size: 100%;
+    font-size: 150%;
     margin: auto;
     text-align: center;
   }
@@ -233,22 +238,19 @@
   height: fit-content;
   margin: auto;
 }
-
-.Title {
-  font-size: 60%;
+.presentacion .Title {
+  font-size: 110%;
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.Subtitle {
-  font-size: 40%;
+.presentacion .Subtitle {
+  font-size: 90%;
   width: 95%;
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.Description {
-  font-size: 35%;
+.presentacion .Description {
+  font-size: 60%;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
@@ -295,13 +297,11 @@
   font-size: 20%;
   text-align: center;
 }
-
 .carousel p {
   display: flex;
   color: #FFFFFF;
   font-size: small;
 }
-
 .carousel h2 {
   display: flex;
   color: #FFFFFF;
@@ -312,36 +312,33 @@
   display: grid;
   place-content: center;
 }
-
-.fotos {
+.Seccion3 .fotos {
   width: 90%;
-  height: 200px;
+  height: 600px;
   overflow: scroll;
   padding: 20px;
   font-size: small;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
-
-.card {
-  width: 40%;
-  height: 60%;
+.Seccion3 .fotos .card {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
 }
-
-.foto {
-  width: 90%;
-  height: 90%;
+.Seccion3 .fotos .card .card-img-top {
+  overflow: hidden;
+}
+.Seccion3 .fotos .card .card-body {
+  font-size: 100%;
 }
 
 .Seccion4 {
   height: -moz-fit-content;
   height: fit-content;
-  font-size: 150%;
+  font-size: 250%;
   text-align: center;
 }
-
 .Seccion4 h3 {
+  font-size: x-large;
   margin: auto;
   text-align: center;
 }
@@ -406,19 +403,19 @@
     height: fit-content;
     margin: auto;
   }
-  .Title {
-    font-size: 90%;
+  .presentacion .Title {
+    font-size: 150%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Subtitle {
-    font-size: 70%;
+  .presentacion .Subtitle {
+    font-size: 90%;
     width: 95%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Description {
-    font-size: 60%;
+  .presentacion .Description {
+    font-size: 50%;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -475,7 +472,7 @@
   }
   .fotos {
     width: 90%;
-    height: 600px;
+    height: 700px;
     overflow: scroll;
     padding: 80px;
     font-size: large;
@@ -484,8 +481,8 @@
     flex-direction: row;
   }
   .card {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
   }
   .foto {
     width: 60%;
@@ -637,7 +634,7 @@
   }
   .fotos {
     width: 95%;
-    height: 800px;
+    height: 900px;
     overflow: scroll;
     padding: 80px;
     font-size: large;
@@ -646,8 +643,8 @@
     flex-direction: row;
   }
   .card {
-    width: 30%;
-    height: 40%;
+    width: 70%;
+    height: 70%;
   }
   .foto {
     width: 90%;

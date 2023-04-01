@@ -56,7 +56,8 @@
             margin: auto;
             background-color: #ebebeb;
             width:100%;
-            
+    
+        .item{font-size: 80%;}
     }
     }
     
@@ -69,15 +70,15 @@
             margin: auto;
             font-size: 20%;
             text-align: center;
+            
+            .carousel-caption{font-size: 30%;
+                h5{margin: auto;}
+                p{margin: auto;}
+        
             }
-        .carousel p{
-            display: flex;
-            color: #FFFFFF;
-            font-size: small;}
-        .carousel h2{
-            display: flex;
-            color: #FFFFFF;
-            font-size: small;}
+        
+        }
+        
 
         }
 
@@ -86,7 +87,7 @@
             place-content: center;}
                 .fotos{
                     width: 90%;
-                    height: 200px;
+                    height: 400px;
                     overflow: scroll;
                     padding: 20px;
                     font-size: small;
@@ -96,21 +97,31 @@
                     "foto1 texto1"
                     "foto2 texto2"
                     "foto3 texto3"
-                    "foto4 texto4"
+                    "foto4 texto4";
+                    
+                    
+                .card-custom{
+                    border: solid black 1px;
+                    box-shadow: 3px 3px 3px gray;
+                    width: 80%;
+                    height: 80%;
+                    overflow: hidden;
+                    .foto{
+                        overflow: hidden;
+                        width: 90%;
+                        height: 60%;
+                        }
                     }
-                .card{width: 60%;
-                    height: 60%;}
-                .foto{
-                    width: 90%;
-                    height: 90%;
-                    }    
+                }
+                    
     .Seccion4{  
             height: fit-content;
             font-size: xx-large;
             text-align: center;
             }
             .Seccion4 h3{margin:auto;
-                text-align: center;}
+                text-align: center;
+            font-size: x-large;}
 
 
 .encabezado img{grid-area: icon;
@@ -152,7 +163,7 @@ font-size: 50%;
 
 /*Retoques Index.html*/
 .sectiontitle{
-    font-size: 100%;
+    font-size: 150%;
     margin: auto;
     text-align: center;}
     .btn{
@@ -165,21 +176,25 @@ font-size: 50%;
     width:100%;
     height: fit-content;
     margin: auto;
+
+    .Title{font-size: 110%;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .Subtitle{font-size: 90%;
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;}
+    .Description{
+        font-size: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        }
+
+
 }
-.Title{font-size: 60%;
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-.Subtitle{font-size: 40%;
-    width: 95%;
-    padding-left: 20px;
-    padding-right: 20px;}
-.Description{
-    font-size: 35%;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    }
+
 
 .Seccion1{
         height: fit-content;
@@ -214,46 +229,52 @@ font-size: 50%;
     margin: auto;
     font-size: 20%;
     text-align: center;
+    
+    p{
+        display: flex;
+        color: #FFFFFF;
+        font-size: small;}
+    h2{
+        display: flex;
+        color: #FFFFFF;
+        font-size: small;}
     }
-    .carousel p{
-        display: flex;
-        color: #FFFFFF;
-        font-size: small;}
-    .carousel h2{
-        display: flex;
-        color: #FFFFFF;
-        font-size: small;}
 
 .Seccion3{
     display: grid;
-    place-content: center;}
+    place-content: center;
         .fotos{
             width: 90%;
-            height: 200px;
+            height: 600px;
             overflow: scroll;
             padding: 20px;
             font-size: small;
-            display:flex;
-            flex-wrap: wrap;
-            flex-direction: row;
+            
 
+            .card{
+                overflow: hidden;
+                width: 200px;
+                height: 200px;
+            .card-img-top{overflow: hidden;}
+            .card-body{font-size: 100%;}
             }
-            .card{width: 40%;
-                height: 60%;}
-            .foto{
-                width: 90%;
-                height: 90%;
-                }
-
+            }
+            
+}
     
 
 .Seccion4{  
             height: fit-content;
-            font-size: 150%;
+            font-size: 250%;
             text-align: center;
-        }
-        .Seccion4 h3{margin:auto;
+        
+        h3{
+            font-size: x-large;
+            margin:auto;
             text-align: center;}
+        
+        }
+        
 
 .encabezado img{grid-area: icon;
         place-content: left;
@@ -308,21 +329,26 @@ font-size: 50%;
     width:100%;
     height: fit-content;
     margin: auto;
+
+    .Title{font-size: 150%;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .Subtitle{font-size: 90%;
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .Description{
+        font-size: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        }
+        
+
 }
-.Title{font-size: 90%;
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-.Subtitle{font-size: 70%;
-    width: 95%;
-    padding-left: 20px;
-    padding-right: 20px;}
-.Description{
-    font-size: 60%;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    }
+
 
 .Seccion1{
         height: fit-content;
@@ -376,7 +402,7 @@ font-size: 50%;
     place-content: center;}
         .fotos{
             width: 90%;
-            height: 600px;
+            height: 700px;
             overflow: scroll;
             padding: 80px;
             font-size: large;
@@ -385,8 +411,8 @@ font-size: 50%;
             flex-direction: row;
 
             }
-            .card{width: 40%;
-                height: 40%;}
+            .card{width: 60%;
+                height: 60%;}
             .foto{
                 width: 60%;
                 height: 60%;
@@ -525,7 +551,7 @@ font-size: 50%;
     place-content: center;}
         .fotos{
             width: 95%;
-            height: 800px;
+            height: 900px;
             overflow: scroll;
             padding: 80px;
             font-size: large;
@@ -534,8 +560,8 @@ font-size: 50%;
             flex-direction: row;
 
             }
-            .card{width: 30%;
-                height: 40%;}
+            .card{width: 70%;
+                height: 70%;}
             .foto{
                 width: 90%;
                 height: 90%;
