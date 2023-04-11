@@ -29,6 +29,8 @@ body{height: 100%;
         right: 0;
         top: 25%;
         width: 90%;
+        border: solid black 1px;
+        border-radius: 10px;
         height: fit-content;
         background-color: #FFFFFF;
         margin: auto;
@@ -36,6 +38,7 @@ body{height: 100%;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: left;
+            a{padding: 10px;}
     }
     
     
