@@ -43,25 +43,43 @@
 }
 
 /*----------------------------------------------------Partial Laboratorios----------------------------------------------------------------*/
-.sectiontitle {
-  margin: auto;
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.busqueda {
+.labs {
+  height: 90%;
+}
+.labs .sectiontitle {
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+}
+.labs .busqueda {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 18%;
   margin: auto;
   width: 90%;
   height: -moz-fit-content;
   height: fit-content;
   font-size: 70%;
 }
-
-.containerlab {
-  position: relative;
+.labs .containerlab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
   width: 90%;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #FFFFFF;
-  border: #666666 solid 1px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
