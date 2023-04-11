@@ -1,0 +1,2493 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word 15">
+    <meta name="Originator" content="Microsoft Word 15">
+    <link rel="File-List" href="ospf_default_types_archivos/filelist.xml">
+    <link rel="Edit-Time-Data" href="ospf_default_types_archivos/editdata.mso">
+    <!--[if !mso]>
+    <style>
+    v\:* {behavior:url(#default#VML);}
+    o\:* {behavior:url(#default#VML);}
+    w\:* {behavior:url(#default#VML);}
+    .shape {behavior:url(#default#VML);}
+    </style>
+    <![endif]--><!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:Author>Ernesto Vilarrasa</o:Author>
+      <o:Template>Normal</o:Template>
+      <o:LastAuthor>Ernesto Vilarrasa</o:LastAuthor>
+      <o:Revision>23</o:Revision>
+      <o:TotalTime>434</o:TotalTime>
+      <o:Created>2023-03-21T20:35:00Z</o:Created>
+      <o:LastSaved>2023-03-23T19:44:00Z</o:LastSaved>
+      <o:Pages>1</o:Pages>
+      <o:Words>2348</o:Words>
+      <o:Characters>13388</o:Characters>
+      <o:Lines>111</o:Lines>
+      <o:Paragraphs>31</o:Paragraphs>
+      <o:CharactersWithSpaces>15705</o:CharactersWithSpaces>
+      <o:Version>16.00</o:Version>
+     </o:DocumentProperties>
+    </xml><![endif]-->
+    <link rel="themeData" href="ospf_default_types_archivos/themedata.thmx">
+    <link rel="colorSchemeMapping" href="ospf_default_types_archivos/colorschememapping.xml">
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:TrackMoves>false</w:TrackMoves>
+      <w:TrackFormatting/>
+      <w:PunctuationKerning/>
+      <w:ValidateAgainstSchemas/>
+      <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+      <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+      <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+      <w:DoNotPromoteQF/>
+      <w:LidThemeOther>EN-US</w:LidThemeOther>
+      <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+      <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+      <w:Compatibility>
+       <w:BreakWrappedTables/>
+       <w:SnapToGridInCell/>
+       <w:WrapTextWithPunct/>
+       <w:UseAsianBreakRules/>
+       <w:DontGrowAutofit/>
+       <w:SplitPgBreakAndParaMark/>
+       <w:EnableOpenTypeKerning/>
+       <w:DontFlipMirrorIndents/>
+       <w:OverrideTableStyleHps/>
+      </w:Compatibility>
+      <w:DoNotOptimizeForBrowser/>
+      <m:mathPr>
+       <m:mathFont m:val="Cambria Math"/>
+       <m:brkBin m:val="before"/>
+       <m:brkBinSub m:val="&#45;-"/>
+       <m:smallFrac m:val="off"/>
+       <m:dispDef/>
+       <m:lMargin m:val="0"/>
+       <m:rMargin m:val="0"/>
+       <m:defJc m:val="centerGroup"/>
+       <m:wrapIndent m:val="1440"/>
+       <m:intLim m:val="subSup"/>
+       <m:naryLim m:val="undOvr"/>
+      </m:mathPr></w:WordDocument>
+    </xml><![endif]--><!--[if gte mso 9]><xml>
+     <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+      DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+      LatentStyleCount="376">
+      <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+      <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+      <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 6"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 7"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 8"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index 9"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 1"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 2"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 3"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 4"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 5"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 6"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 7"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 8"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" Name="toc 9"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Normal Indent"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="footnote text"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="annotation text"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="header"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="footer"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="index heading"/>
+      <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="table of figures"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="envelope address"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="envelope return"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="footnote reference"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="annotation reference"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="line number"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="page number"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="endnote reference"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="endnote text"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="table of authorities"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="macro"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="toa heading"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Bullet"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Number"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Bullet 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Bullet 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Bullet 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Bullet 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Number 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Number 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Number 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Number 5"/>
+      <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Closing"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Signature"/>
+      <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+       UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text Indent"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Continue"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Continue 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Continue 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Continue 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="List Continue 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Message Header"/>
+      <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Salutation"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Date"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text First Indent"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text First Indent 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Note Heading"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text Indent 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Body Text Indent 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Block Text"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Hyperlink"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="FollowedHyperlink"/>
+      <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+      <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Document Map"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Plain Text"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="E-mail Signature"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Top of Form"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Bottom of Form"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Normal (Web)"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Acronym"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Address"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Cite"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Code"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Definition"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Keyboard"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Preformatted"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Sample"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Typewriter"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="HTML Variable"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Normal Table"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="annotation subject"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="No List"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Outline List 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Outline List 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Outline List 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Simple 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Simple 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Simple 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Classic 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Classic 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Classic 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Classic 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Colorful 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Colorful 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Colorful 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Columns 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Columns 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Columns 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Columns 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Columns 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 6"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 7"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Grid 8"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 4"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 5"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 6"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 7"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table List 8"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table 3D effects 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table 3D effects 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table 3D effects 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Contemporary"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Elegant"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Professional"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Subtle 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Subtle 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Web 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Web 2"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Web 3"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Balloon Text"/>
+      <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Table Theme"/>
+      <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+      <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+      <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+      <w:LsdException Locked="false" Priority="34" QFormat="true"
+       Name="List Paragraph"/>
+      <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+      <w:LsdException Locked="false" Priority="30" QFormat="true"
+       Name="Intense Quote"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+      <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+      <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+      <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+      <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+      <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+      <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+      <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+      <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+      <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+      <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+      <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+      <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+      <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+      <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+      <w:LsdException Locked="false" Priority="19" QFormat="true"
+       Name="Subtle Emphasis"/>
+      <w:LsdException Locked="false" Priority="21" QFormat="true"
+       Name="Intense Emphasis"/>
+      <w:LsdException Locked="false" Priority="31" QFormat="true"
+       Name="Subtle Reference"/>
+      <w:LsdException Locked="false" Priority="32" QFormat="true"
+       Name="Intense Reference"/>
+      <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+      <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+       UnhideWhenUsed="true" Name="Bibliography"/>
+      <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+       UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+      <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+      <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+      <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+      <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+      <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+      <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+      <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+      <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+      <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="Grid Table 1 Light Accent 1"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="Grid Table 6 Colorful Accent 1"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="Grid Table 7 Colorful Accent 1"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="Grid Table 1 Light Accent 2"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="Grid Table 6 Colorful Accent 2"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="Grid Table 7 Colorful Accent 2"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="Grid Table 1 Light Accent 3"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="Grid Table 6 Colorful Accent 3"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="Grid Table 7 Colorful Accent 3"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="Grid Table 1 Light Accent 4"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="Grid Table 6 Colorful Accent 4"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="Grid Table 7 Colorful Accent 4"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="Grid Table 1 Light Accent 5"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="Grid Table 6 Colorful Accent 5"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="Grid Table 7 Colorful Accent 5"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="Grid Table 1 Light Accent 6"/>
+      <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+      <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+      <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+      <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="Grid Table 6 Colorful Accent 6"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="Grid Table 7 Colorful Accent 6"/>
+      <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+      <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+      <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="List Table 1 Light Accent 1"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="List Table 6 Colorful Accent 1"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="List Table 7 Colorful Accent 1"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="List Table 1 Light Accent 2"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="List Table 6 Colorful Accent 2"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="List Table 7 Colorful Accent 2"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="List Table 1 Light Accent 3"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="List Table 6 Colorful Accent 3"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="List Table 7 Colorful Accent 3"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="List Table 1 Light Accent 4"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="List Table 6 Colorful Accent 4"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="List Table 7 Colorful Accent 4"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="List Table 1 Light Accent 5"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="List Table 6 Colorful Accent 5"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="List Table 7 Colorful Accent 5"/>
+      <w:LsdException Locked="false" Priority="46"
+       Name="List Table 1 Light Accent 6"/>
+      <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+      <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+      <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+      <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+      <w:LsdException Locked="false" Priority="51"
+       Name="List Table 6 Colorful Accent 6"/>
+      <w:LsdException Locked="false" Priority="52"
+       Name="List Table 7 Colorful Accent 6"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Mention"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Smart Hyperlink"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Hashtag"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Unresolved Mention"/>
+      <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+       Name="Smart Link"/>
+     </w:LatentStyles>
+    </xml><![endif]-->
+    <style>
+    <!--
+     /* Font Definitions */
+     @font-face
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;
+        mso-font-charset:0;
+        mso-generic-font-family:roman;
+        mso-font-pitch:variable;
+        mso-font-signature:3 0 0 0 1 0;}
+     /* Style Definitions */
+     p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-parent:"";
+        margin:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;}
+    h1
+        {mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-link:"Título 1 Car";
+        mso-style-next:Normal;
+        margin-top:20.0pt;
+        margin-right:0in;
+        margin-bottom:6.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        mso-outline-level:1;
+        font-size:20.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        mso-font-kerning:0pt;
+        font-weight:normal;}
+    h2
+        {mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-qformat:yes;
+        mso-style-link:"Título 2 Car";
+        mso-style-next:Normal;
+        margin-top:.25in;
+        margin-right:0in;
+        margin-bottom:6.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        mso-outline-level:2;
+        font-size:16.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        font-weight:normal;}
+    h3
+        {mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-qformat:yes;
+        mso-style-link:"Título 3 Car";
+        mso-style-next:Normal;
+        margin-top:16.0pt;
+        margin-right:0in;
+        margin-bottom:4.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        mso-outline-level:3;
+        font-size:14.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        color:#434343;
+        font-weight:normal;}
+    h4
+        {mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-qformat:yes;
+        mso-style-link:"Título 4 Car";
+        mso-style-next:Normal;
+        margin-top:14.0pt;
+        margin-right:0in;
+        margin-bottom:4.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        mso-outline-level:4;
+        font-size:12.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        color:#666666;
+        font-weight:normal;}
+    h5
+        {mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-qformat:yes;
+        mso-style-link:"Título 5 Car";
+        mso-style-next:Normal;
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:4.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        mso-outline-level:5;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        color:#666666;
+        font-weight:normal;}
+    h6
+        {mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-qformat:yes;
+        mso-style-link:"Título 6 Car";
+        mso-style-next:Normal;
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:4.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        mso-outline-level:6;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        color:#666666;
+        font-weight:normal;
+        font-style:italic;
+        mso-bidi-font-style:normal;}
+    p.MsoTitle, li.MsoTitle, div.MsoTitle
+        {mso-style-priority:10;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-link:"Título Car";
+        mso-style-next:Normal;
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:3.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        font-size:26.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;}
+    p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+        {mso-style-priority:11;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-link:"Subtítulo Car";
+        mso-style-next:Normal;
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:16.0pt;
+        margin-left:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan lines-together;
+        page-break-after:avoid;
+        font-size:15.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;
+        color:#666666;}
+    a:link, span.MsoHyperlink
+        {mso-style-noshow:yes;
+        mso-style-priority:99;
+        color:blue;
+        mso-themecolor:hyperlink;
+        text-decoration:underline;
+        text-underline:single;}
+    a:visited, span.MsoHyperlinkFollowed
+        {mso-style-noshow:yes;
+        mso-style-priority:99;
+        color:purple;
+        mso-themecolor:followedhyperlink;
+        text-decoration:underline;
+        text-underline:single;}
+    p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+        {mso-style-priority:34;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        mso-add-space:auto;
+        line-height:115%;
+        mso-pagination:widow-orphan;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;}
+    p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+        {mso-style-priority:34;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-type:export-only;
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        mso-add-space:auto;
+        line-height:115%;
+        mso-pagination:widow-orphan;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;}
+    p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+        {mso-style-priority:34;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-type:export-only;
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        mso-add-space:auto;
+        line-height:115%;
+        mso-pagination:widow-orphan;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;}
+    p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+        {mso-style-priority:34;
+        mso-style-unhide:no;
+        mso-style-qformat:yes;
+        mso-style-type:export-only;
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        mso-add-space:auto;
+        line-height:115%;
+        mso-pagination:widow-orphan;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;
+        mso-fareast-font-family:Arial;}
+    span.Ttulo1Car
+        {mso-style-name:"Título 1 Car";
+        mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:"Título 1";
+        mso-ansi-font-size:16.0pt;
+        mso-bidi-font-size:16.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        color:#365F91;
+        mso-themecolor:accent1;
+        mso-themeshade:191;}
+    span.Ttulo2Car
+        {mso-style-name:"Título 2 Car";
+        mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:"Título 2";
+        mso-ansi-font-size:13.0pt;
+        mso-bidi-font-size:13.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        color:#365F91;
+        mso-themecolor:accent1;
+        mso-themeshade:191;}
+    span.Ttulo3Car
+        {mso-style-name:"Título 3 Car";
+        mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:"Título 3";
+        mso-ansi-font-size:12.0pt;
+        mso-bidi-font-size:12.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        color:#243F60;
+        mso-themecolor:accent1;
+        mso-themeshade:127;}
+    span.Ttulo4Car
+        {mso-style-name:"Título 4 Car";
+        mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:"Título 4";
+        mso-ansi-font-size:11.0pt;
+        mso-bidi-font-size:11.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        color:#365F91;
+        mso-themecolor:accent1;
+        mso-themeshade:191;
+        font-style:italic;}
+    span.Ttulo5Car
+        {mso-style-name:"Título 5 Car";
+        mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:"Título 5";
+        mso-ansi-font-size:11.0pt;
+        mso-bidi-font-size:11.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        color:#365F91;
+        mso-themecolor:accent1;
+        mso-themeshade:191;}
+    span.Ttulo6Car
+        {mso-style-name:"Título 6 Car";
+        mso-style-noshow:yes;
+        mso-style-priority:9;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:"Título 6";
+        mso-ansi-font-size:11.0pt;
+        mso-bidi-font-size:11.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        color:#243F60;
+        mso-themecolor:accent1;
+        mso-themeshade:127;}
+    p.msonormal0, li.msonormal0, div.msonormal0
+        {mso-style-name:msonormal;
+        mso-style-unhide:no;
+        mso-margin-top-alt:auto;
+        margin-right:0in;
+        mso-margin-bottom-alt:auto;
+        margin-left:0in;
+        mso-pagination:widow-orphan;
+        font-size:12.0pt;
+        font-family:"Times New Roman",serif;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;}
+    span.TtuloCar
+        {mso-style-name:"Título Car";
+        mso-style-priority:10;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:Título;
+        mso-ansi-font-size:28.0pt;
+        mso-bidi-font-size:28.0pt;
+        font-family:"Calibri",sans-serif;
+        mso-ascii-font-family:Calibri;
+        mso-ascii-theme-font:major-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:major-fareast;
+        mso-hansi-font-family:Calibri;
+        mso-hansi-theme-font:major-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:major-bidi;
+        letter-spacing:-.5pt;
+        mso-font-kerning:14.0pt;}
+    span.SubttuloCar
+        {mso-style-name:"Subtítulo Car";
+        mso-style-priority:11;
+        mso-style-unhide:no;
+        mso-style-locked:yes;
+        mso-style-link:Subtítulo;
+        mso-ansi-font-size:11.0pt;
+        mso-bidi-font-size:11.0pt;
+        font-family:"Cambria",serif;
+        mso-ascii-font-family:Cambria;
+        mso-ascii-theme-font:minor-latin;
+        mso-fareast-font-family:"Times New Roman";
+        mso-fareast-theme-font:minor-fareast;
+        mso-hansi-font-family:Cambria;
+        mso-hansi-theme-font:minor-latin;
+        mso-bidi-font-family:"Times New Roman";
+        mso-bidi-theme-font:minor-bidi;
+        color:#5A5A5A;
+        mso-themecolor:text1;
+        mso-themetint:165;
+        letter-spacing:.75pt;}
+    .MsoChpDefault
+        {mso-style-type:export-only;
+        mso-default-props:yes;
+        font-size:10.0pt;
+        mso-ansi-font-size:10.0pt;
+        mso-bidi-font-size:10.0pt;
+        font-family:"Arial",sans-serif;
+        mso-ascii-font-family:Arial;
+        mso-fareast-font-family:Arial;
+        mso-hansi-font-family:Arial;
+        mso-bidi-font-family:Arial;}
+    @page WordSection1
+        {size:595.45pt 841.7pt;
+        margin:1.0in 34.5pt 1.0in 1.0in;
+        mso-header-margin:.5in;
+        mso-footer-margin:.5in;
+        mso-page-numbers:1;
+        mso-paper-source:0;}
+    div.WordSection1
+        {page:WordSection1;}
+    -->
+    </style>
+    <!--[if gte mso 10]>
+    <style>
+     /* Style Definitions */
+     table.MsoNormalTable
+        {mso-style-name:"Tabla normal";
+        mso-tstyle-rowband-size:0;
+        mso-tstyle-colband-size:0;
+        mso-style-noshow:yes;
+        mso-style-priority:99;
+        mso-style-parent:"";
+        mso-padding-alt:0in 5.4pt 0in 5.4pt;
+        mso-para-margin:0in;
+        mso-pagination:widow-orphan;
+        font-size:10.0pt;
+        font-family:"Arial",sans-serif;}
+    table.TableNormal
+        {mso-style-name:"Table Normal";
+        mso-tstyle-rowband-size:0;
+        mso-tstyle-colband-size:0;
+        mso-style-unhide:no;
+        mso-style-parent:"";
+        mso-padding-alt:0in 0in 0in 0in;
+        mso-para-margin:0in;
+        line-height:115%;
+        mso-pagination:widow-orphan;
+        font-size:11.0pt;
+        font-family:"Arial",sans-serif;}
+    </style>
+    <![endif]--><!--[if gte mso 9]><xml>
+     <o:shapedefaults v:ext="edit" spidmax="1026"/>
+    </xml><![endif]--><!--[if gte mso 9]><xml>
+     <o:shapelayout v:ext="edit">
+      <o:idmap v:ext="edit" data="1"/>
+     </o:shapelayout></xml><![endif]-->
+    </head>
+    
+    <body bgcolor="white" background="ospf_default_types_archivos/image001.gif" style="background-repeat:repeat-y" lang="EN-US" link="blue" vlink="purple">
+    <!--[if gte mso 9]><xml>
+     <v:background id="_x0000_s1025" o:bwmode="white" o:targetscreensize="1024,768">
+      <v:fill src="ospf_default_types_archivos/image001.gif" o:title="image001"
+       recolor="t" type="frame"/>
+     </v:background></xml><![endif]-->
+    
+    <div class="WordSection1">
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="font-size:14.0pt;line-height:115%;mso-ansi-language:
+    ES">OSPF con escenario de dos rutas por defecto<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">Fecha: </span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">21 de marzo del
+    2023<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">Escenario<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Este escenario es parte de la saga <a href="https://www.vilarrasa.com.ar/ospf_summary_default_route.htm" target="_blank">#233</a> , <a href="https://www.vilarrasa.com.ar/ospf_null_route.htm" target="_blank">#234</a>
+    y sus primos <a href="https://www.vilarrasa.com.ar/sumarizacion_OSPF_multiarea.htm">#107</a> y <a href="https://www.vilarrasa.com.ar/default_ospf.htm">#122</a>. Aquí planteamos
+    ¿que pasa si un router ABR (una pata en cada área) <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">recibe dos rutas por defecto ? una desde el área
+    0 y otra desde el área 1 ¿balancea carga o alguna tiene prioridad? Fin del
+    asunto.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-no-proof:yes"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+     coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+     filled="f" stroked="f">
+     <v:stroke joinstyle="miter"/>
+     <v:formulas>
+      <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+      <v:f eqn="sum @0 1 0"/>
+      <v:f eqn="sum 0 0 @1"/>
+      <v:f eqn="prod @2 1 2"/>
+      <v:f eqn="prod @3 21600 pixelWidth"/>
+      <v:f eqn="prod @3 21600 pixelHeight"/>
+      <v:f eqn="sum @0 0 1"/>
+      <v:f eqn="prod @6 1 2"/>
+      <v:f eqn="prod @7 21600 pixelWidth"/>
+      <v:f eqn="sum @8 21600 0"/>
+      <v:f eqn="prod @7 21600 pixelHeight"/>
+      <v:f eqn="sum @10 21600 0"/>
+     </v:formulas>
+     <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+     <o:lock v:ext="edit" aspectratio="t"/>
+    </v:shapetype><v:shape id="Imagen_x0020_1" o:spid="_x0000_i1028" type="#_x0000_t75"
+     style='width:600.6pt;height:172.2pt;visibility:visible;mso-wrap-style:square'>
+     <v:imagedata src="ospf_default_types_archivos/image002.png" o:title=""/>
+    </v:shape><![endif]--><!--[if !vml]--><img border="0" width="801" height="230" src="ospf_default_types_archivos/image006.gif" v:shapes="Imagen_x0020_1"><!--[endif]--></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Siguiendo la tradición de los dos anteriores,
+    veremos tanto en Packet Tracer como con los equipos reales. A los bifes…(o lo
+    que sea).<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">1.- Generamos ruta por
+    defecto en RT-ASBR:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Aquí existía la ruta del escenario #233 pero
+    repetimos el proceso para tener una visión completa del escenario.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">1.1.- Verificación inicial:<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#</span><b style="mso-bidi-font-weight:normal">sh ip route</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>D - EIGRP, EX - EIGRP
+    external, O - OSPF, IA - OSPF inter area<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>N1 - OSPF NSSA external type
+    1, N2 - OSPF NSSA external type 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>E1 - OSPF external type 1,
+    E2 - OSPF external type 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>i - IS-IS, su - IS-IS
+    summary, L1 - IS-IS level-1, L2 - IS-IS level-2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ia - IS-IS inter area, * -
+    candidate default, U - per-user static route<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>o - ODR, P - periodic
+    downloaded static route, H - NHRP, l - LISP<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>+ - replicated route, % -
+    next hop override<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Gateway of last resort </span><b style="mso-bidi-font-weight:normal">is
+    not set<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.0/8 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.0/24 is directly
+    connected, Vlan1000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.1/32 is directly
+    connected, Vlan1000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">O<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.0.0/21 is a summary,
+    00:00:47, Null0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.0/24 is directly
+    connected, Vlan1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.1/32 is directly
+    connected, Vlan1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.0/24 is directly
+    connected, Vlan3<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.1/32 is directly
+    connected, Vlan3<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.0/24 is directly
+    connected, Vlan4<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.1/32 is directly
+    connected, Vlan4<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.0/24 is directly
+    connected, Vlan5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.1/32 is directly
+    connected, Vlan5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.0/24 is directly
+    connected, Vlan6<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.1/32 is directly
+    connected, Vlan6<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.0/24 is directly
+    connected, Vlan7<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.1/32 is directly
+    connected, Vlan7<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.0/24 is directly
+    connected, Vlan8<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.1/32 is directly
+    connected, Vlan8<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">1.2.- Activamos el debug:<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#debug ip routing<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">IP routing debugging is on<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">1.3.- Generamos una inteface
+    dummy:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR#</span><b style="mso-bidi-font-weight:normal">conf t</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Enter configuration commands, one per line.<span style="mso-spacerun:yes">&nbsp; </span>End with CNTL/Z.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config)#</span><b style="mso-bidi-font-weight:normal">int loop 0</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config-if)#</span><b style="mso-bidi-font-weight:normal">ip add
+    200.0.0.1 255.255.255.255</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config-if)#</span><b style="mso-bidi-font-weight:normal">exit</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config)#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">1.4.- Generamos la ruta por
+    defecto (también dummy):<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config)#</span><b style="mso-bidi-font-weight:normal">ip route
+    0.0.0.0 0.0.0.0 loop0</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">%Default route without gateway, if not a point-to-point interface, may
+    impact performance </span><b style="mso-bidi-font-weight:normal"><span style="color:#0070C0">(este mensaje es normal en estas pruebas)</span></b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ASBR(config)#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">1.5.- La redistribuimos en
+    OSPF:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config)#</span><b style="mso-bidi-font-weight:normal">router ospf
+    1<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config-router)#</span><b style="mso-bidi-font-weight:normal">default-information
+    originate</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR(config-router)#</span><b style="mso-bidi-font-weight:normal">end<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ASBR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><o:p>&nbsp;</o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">1.6.- Resultado del debug:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Mar 21 15:05:38.501: RT: updating ospf 0.0.0.0/0 (0x0)<span style="mso-spacerun:yes">&nbsp; </span>:<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">via 192.168.1.2 Vl1<span style="mso-spacerun:yes">&nbsp; </span>0 1048578<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Mar 21 15:05:38.501: RT: add 0.0.0.0/0 via
+    192.168.1.2, ospf metric [</span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">110/1</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">]<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Mar 21 15:05:38.501: RT: default path is now
+    0.0.0.0 via 192.168.1.2<span style="mso-spacerun:yes">&nbsp; </span></span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="color:#0070C0;
+    mso-ansi-language:ES">(la agrega como default porque es la primera)</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">1.7.- Captura de Wireshark:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES;mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+     id="Imagen_x0020_3" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:540pt;
+     height:40.2pt;visibility:visible;mso-wrap-style:square'>
+     <v:imagedata src="ospf_default_types_archivos/image007.png" o:title=""/>
+    </v:shape><![endif]--><!--[if !vml]--><img border="0" width="720" height="54" src="ospf_default_types_archivos/image008.gif" v:shapes="Imagen_x0020_3"><!--[endif]--></span></b><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:
+    ES"><o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">Frame 5:</b><span style="mso-bidi-font-weight:bold"> 98 bytes on wire
+    (784 bits), 98 bytes captured (784 bits) <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Ethernet II, Src: 70:81:05:b5:77:82, Dst: 01:00:5e:00:00:05<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Internet Protocol Version 4, Src: 192.168.1.2, Dst: 224.0.0.5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">Open Shortest Path First<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>OSPF Header<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Version: 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Message Type: </span><b style="mso-bidi-font-weight:normal">LS Update</b><span style="mso-bidi-font-weight:
+    bold"> (4)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Packet Length: 64<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Source OSPF Router:
+    192.168.1.2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:
+    normal">Area ID: 0.0.0.1<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Checksum: 0x3e0c [correct]<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Auth Type: Null (0)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Auth Data (none):
+    0000000000000000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>LS Update Packet<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Number of LSAs: 1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:
+    normal">LSA-type 5</b><span style="mso-bidi-font-weight:bold"> (AS-External-LSA
+    (ASBR)), len 36<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>.000 0000 0000 0001 =
+    LS Age (seconds): 1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>0... .... .... .... =
+    Do Not Age Flag: 0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Options: 0x20, (DC)
+    Demand Circuits<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>LS Type: AS-External-LSA
+    (ASBR) (5)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Link State ID: 0.0.0.0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:normal">Advertising Router: 192.168.1.2<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Sequence Number:
+    0x80000001<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Checksum: 0x1c2a<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Length: 36<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:normal">Netmask: 0.0.0.0<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>1... .... = External Type:
+    </span><b style="mso-bidi-font-weight:normal">Type 2 </b><span style="mso-bidi-font-weight:bold">(metric is larger than any other link state
+    path)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>.000 0000 = TOS: 0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:normal">Metric: 1<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:normal">Forwarding Address: 0.0.0.0<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>External Route Tag: 1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">2.- Generamos ruta por
+    defecto en RT-Backbone:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">2.1.- Generamos una inteface
+    dummy:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-Backbone#</span><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">conf t</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Enter configuration commands, one per line.<span style="mso-spacerun:yes">&nbsp; </span>End with CNTL/Z.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config)#</span><b style="mso-bidi-font-weight:normal">int
+    loop 0</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config-if)#</span><b style="mso-bidi-font-weight:normal">ip
+    add 190.0.0.1 255.255.255.255</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config-if)#</span><b style="mso-bidi-font-weight:normal">exit</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config)#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">2.2.- Generamos la ruta por
+    defecto (también dummy):<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config)#</span><b style="mso-bidi-font-weight:normal">ip
+    route 0.0.0.0 0.0.0.0 loop0</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">%Default route without gateway, if not a point-to-point interface, may
+    impact performance </span><b style="mso-bidi-font-weight:normal"><span style="color:#0070C0">(este mensaje es normal en estas pruebas)</span></b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-Backbone(config)#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">2.3.- La redistribuimos en
+    OSPF:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config)#</span><b style="mso-bidi-font-weight:normal">router
+    ospf 1<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config-router)#</span><b style="mso-bidi-font-weight:normal">default-information
+    originate</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config-router)#</span><b style="mso-bidi-font-weight:normal">end<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">2.4.- Resultado del debug:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Mar 21 15:07:31.990: RT: updating ospf 0.0.0.0/0 (0x0)<span style="mso-spacerun:yes">&nbsp; </span>:<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">via 10.0.0.2 Vl1000<span style="mso-spacerun:yes">&nbsp; </span>0 1048578<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Mar 21 15:07:31.990: RT: add 0.0.0.0/0 via
+    10.0.0.2, ospf metric [</span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">110/1</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">] </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="color:#0070C0;
+    mso-ansi-language:ES">(la agrega a la ruta por default)</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">3.- Verificamos en ABR:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Podemos comprobar que el router realizará
+    balanceo de carga independientemente del área que provenga la ruta, ambas con
+    las mismas<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">AD y métrica. Esta última, en las rutas
+    redistribuídas como en los puntos anteriores será de 1 independientemente de
+    los routers que saltemos<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">hasta llegar al router que la publica.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">¿Cual utilizarán los usuarios que tengan RT-ABR
+    como gateway ? dependiendo del destino del tráfico ambas, y haciendo
+    round-robin en cada <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">una por cada IP destino. Mismo destino, misma ruta
+    ya cacheada en el CEF.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#</span><b style="mso-bidi-font-weight:normal">sh ip route</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>D - EIGRP, EX - EIGRP
+    external, O - OSPF, IA - OSPF inter area<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>N1 - OSPF NSSA external type
+    1, N2 - OSPF NSSA external type 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>E1 - OSPF external type 1,
+    E2 - OSPF external type 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>i - IS-IS, su - IS-IS
+    summary, L1 - IS-IS level-1, L2 - IS-IS level-2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ia - IS-IS inter area, * -
+    candidate default, U - per-user static route<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>o - ODR, P - periodic downloaded
+    static route, H - NHRP, l - LISP<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>+ - replicated route, % -
+    next hop override<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Gateway of last resort is </span><b style="mso-bidi-font-weight:normal">192.168.1.2</b><span style="mso-bidi-font-weight:bold"> to network 0.0.0.0 </span><b style="mso-bidi-font-weight:normal"><span style="color:#0070C0">(sólo porque la
+    aprendió primero)</span></b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">O*E2<span style="mso-spacerun:yes">&nbsp; </span>0.0.0.0/0</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"> [</span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:
+    ES">110/1</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:
+    bold">] via 192.168.1.2, </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">00:57:02</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">, Vlan1 </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="color:#0070C0;
+    mso-ansi-language:ES">(vía RT-ASBR)</span></b><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>[</span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:
+    ES">110/1</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:
+    bold">] via 10.0.0.2, </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">00:50:48</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">, Vlan1000 </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="color:#0070C0;
+    mso-ansi-language:ES">(vía RT-Backbone)</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="mso-bidi-font-weight:bold">10.0.0.0/8 is variably subnetted, 2 subnets,
+    2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.0/24 is directly
+    connected, Vlan1000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.1/32 is directly
+    connected, Vlan1000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">O<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.0.0/21 is a summary,
+    01:57:02, Null0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.0/24 is directly
+    connected, Vlan1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.1/32 is directly
+    connected, Vlan1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.2.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.2.0/24 is directly
+    connected, Vlan2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.2.1/32 is directly
+    connected, Vlan2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.0/24 is directly
+    connected, Vlan3<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.1/32 is directly
+    connected, Vlan3<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.0/24 is directly
+    connected, Vlan4<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.1/32 is directly
+    connected, Vlan4<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.0/24 is variably subnetted,
+    2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.0/24 is directly
+    connected, Vlan5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.1/32 is directly
+    connected, Vlan5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.0/24 is directly
+    connected, Vlan6<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>192.168.6.1/32 is directly connected,
+    Vlan6<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.0/24 is directly
+    connected, Vlan7<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.1/32 is directly
+    connected, Vlan7<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.0/24 is directly
+    connected, Vlan8<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.1/32 is directly
+    connected, Vlan8<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">4.- Solución para que quede
+    una ruta principal y otra de respaldo:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">4.1.- Modificamos el tipo de
+    ruta OSPF en RT-Backbone:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config-router)#</span><b style="mso-bidi-font-weight:normal">default-information
+    originate metric-type 1 <span style="color:#0070C0">(por default es type 2)</span></b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone(config-router)#</span><b style="mso-bidi-font-weight:normal">end</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-Backbone#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">4.2.- Análisis de Wireshark:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-no-proof:yes"><!--[if gte vml 1]><v:shape id="Imagen_x0020_4" o:spid="_x0000_i1026"
+     type="#_x0000_t75" style='width:535.2pt;height:43.2pt;visibility:visible;
+     mso-wrap-style:square'>
+     <v:imagedata src="ospf_default_types_archivos/image009.png" o:title=""/>
+    </v:shape><![endif]--><!--[if !vml]--><img border="0" width="714" height="58" src="ospf_default_types_archivos/image010.gif" v:shapes="Imagen_x0020_4"><!--[endif]--></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">Frame 46:</b><span style="mso-bidi-font-weight:bold"> 98 bytes on wire
+    (784 bits), 98 bytes captured (784 bits)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Ethernet II, Src: 88:f0:31:7e:21:e0, Dst:
+    01:00:5e:00:00:05<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Internet Protocol Version 4, Src: 10.0.0.2, Dst: 224.0.0.5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">Open Shortest Path First<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>OSPF Header<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Version: 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Message Type: </span><b style="mso-bidi-font-weight:normal">LS Update</b><span style="mso-bidi-font-weight:
+    bold"> (4)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Packet Length: 64<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Source OSPF Router:
+    10.0.0.2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:
+    normal">Area ID: 0.0.0.0 (Backbone)<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Checksum: 0xf7b3 [correct]<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Auth Type: Null (0)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Auth Data (none):
+    0000000000000000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>LS Update Packet<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Number of LSAs: 1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:
+    normal">LSA-type 5 </b><span style="mso-bidi-font-weight:bold">(AS-External-LSA
+    (ASBR)), len 36<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>.000 0000 0000 0001 =
+    LS Age (seconds): 1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>0... .... .... .... =
+    Do Not Age Flag: 0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Options: 0x20, (DC) Demand Circuits<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>LS Type:
+    AS-External-LSA (ASBR) (5)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Link State ID: 0.0.0.0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:normal">Advertising Router: 10.0.0.2<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Sequence Number:
+    0x80000001<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Checksum: 0x51d5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Length: 36<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b style="mso-bidi-font-weight:normal">Netmask: 0.0.0.0<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>0... .... = External
+    Type: </span><b style="mso-bidi-font-weight:normal">Type 1</b><span style="mso-bidi-font-weight:bold"> (metric is specified in the same units as
+    interface cost)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>.000 0000 = TOS: 0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span></span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">Metric: 1 <span style="color:#0070C0">(a esta métrica
+    le suma 1 que es el costo de la interface)</span><o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span></span><b style="mso-bidi-font-weight:normal">Forwarding Address:
+    0.0.0.0<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>External Route Tag: 1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">4.3.- Resultado del debug:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Mar 21 15:18:20.910: RT: updating ospf 0.0.0.0/0 (0x0)<span style="mso-spacerun:yes">&nbsp; </span>:<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">via 10.0.0.2 Vl1000<span style="mso-spacerun:yes">&nbsp; </span>0 1048578<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Mar 21 15:18:20.910: RT: closer admin distance
+    for 0.0.0.0, </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">flushing 2 routes <span style="color:#0070C0">(elimina
+    las dos rutas anteriores)</span></span></b><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Mar 21 15:18:20.910: RT: add 0.0.0.0/0 via
+    10.0.0.2, ospf metric [</span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:ES">110/2</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold">] </span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="color:#0070C0;
+    mso-ansi-language:ES">(agrega la ruta con métrica 2)</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">4.4.- Verificamos:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Al modificar el tipo de ruta OSPF (external
+    type-2 a external type-1) se altera la métrica en 2 (1 + 1 salto a
+    RT-Backbone), asi y todo <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">esto es preferible por OSPF como más confiable,
+    ya que muestra el costo real, a diferencia del type-2 que siempre es 1. <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Otro detalle es que la elección de este tipo de
+    ruta es independiente del área que provenga. <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-no-proof:yes"><!--[if gte vml 1]><v:shape id="Imagen_x0020_2" o:spid="_x0000_i1025"
+     type="#_x0000_t75" style='width:597pt;height:172.2pt;visibility:visible;
+     mso-wrap-style:square'>
+     <v:imagedata src="ospf_default_types_archivos/image004.png" o:title=""/>
+    </v:shape><![endif]--><!--[if !vml]--><img border="0" width="796" height="230" src="ospf_default_types_archivos/image011.gif" v:shapes="Imagen_x0020_2"><!--[endif]--></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">RT-ABR#</span><b style="mso-bidi-font-weight:normal">sh ip route</b><span style="mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>D - EIGRP, EX - EIGRP
+    external, O - OSPF, IA - OSPF inter area<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>N1 - OSPF NSSA external type
+    1, N2 - OSPF NSSA external type 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>E1 - OSPF external type 1,
+    E2 - OSPF external type 2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>i - IS-IS, su - IS-IS
+    summary, L1 - IS-IS level-1, L2 - IS-IS level-2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ia - IS-IS inter area, * -
+    candidate default, U - per-user static route<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>o - ODR, P - periodic
+    downloaded static route, H - NHRP, l - LISP<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>+ - replicated route, % -
+    next hop override<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Gateway of last resort is </span><b style="mso-bidi-font-weight:normal">10.0.0.2</b><span style="mso-bidi-font-weight:bold"> to network 0.0.0.0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">O*E1<span style="mso-spacerun:yes">&nbsp; </span>0.0.0.0/0</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"> [</span><b style="mso-bidi-font-weight:normal"><span lang="ES" style="mso-ansi-language:
+    ES">110/2</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:
+    bold">] via 10.0.0.2, 00:01:14, Vlan1000 </span><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="color:#0070C0;mso-ansi-language:ES">(vía
+    RT-Backbone)</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:
+    bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="mso-bidi-font-weight:bold">10.0.0.0/8 is variably subnetted, 2 subnets,
+    2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.0/24 is directly
+    connected, Vlan1000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>10.0.0.1/32 is directly
+    connected, Vlan1000<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">O<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.0.0/21 is a summary,
+    01:59:22, Null0<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.1.0/24 is directly
+    connected, Vlan1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;</span>192.168.1.1/32 is directly connected, Vlan1<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.2.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.2.0/24 is directly
+    connected, Vlan2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.2.1/32 is directly
+    connected, Vlan2<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.0/24 is directly
+    connected, Vlan3<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.3.1/32 is directly
+    connected, Vlan3<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.0/24 is directly
+    connected, Vlan4<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.4.1/32 is directly
+    connected, Vlan4<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.0/24 is directly
+    connected, Vlan5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.5.1/32 is directly
+    connected, Vlan5<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.0/24 is directly
+    connected, Vlan6<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.6.1/32 is directly
+    connected, Vlan6<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.0/24 is directly
+    connected, Vlan7<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.7.1/32 is directly
+    connected, Vlan7<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.0/24 is variably
+    subnetted, 2 subnets, 2 masks<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">C<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.0/24 is directly
+    connected, Vlan8<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">L<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>192.168.8.1/32 is directly
+    connected, Vlan8<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">RT-ABR#<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">5.- Resumen:<o:p></o:p></span></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold">Podemos confirmar estos resultados mediante el
+    RFC que describe el funcionamiento mismo del OSPF.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><a href="https://www.rfc-editor.org/rfc/rfc2328" target="_blank">RFC 2328</a>
+    Section </span><b style="mso-bidi-font-weight:normal">16.4 </b><span style="mso-bidi-font-weight:bold">Calculating AS external routes</span><b style="mso-bidi-font-weight:normal"> </b><span style="mso-bidi-font-weight:
+    bold">(<a href="https://www.rfc-editor.org/rfc/rfc2328#page-173">https://www.rfc-editor.org/rfc/rfc2328#page-173</a>)<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">(6) (b)</b><span style="mso-bidi-font-weight:bold"> Type 1 external
+    paths are always preferred over type 2 external paths. <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="color:#1B1C1D;
+    background:white">A type 1 route has a more accurate path info since it adds
+    the costs on links inside the OSPF network to the cost of the external link. <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="color:#1B1C1D;
+    background:white">A type 2 route only has the cost of the external link no
+    matter how many links it passes through in the internal network. So generally, <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="color:#1B1C1D;
+    background:white">a type-1 route will have a higher cost than a type 2 route anyway
+    and routers in the OSPF network will prefer the type-1 route.</span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><o:p>&nbsp;</o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal">6.- Otro punto de vista:<o:p></o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">OSPF-running routers use these criteria to select the best route to be
+    installed in the routing table:<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">When there are multiple routes available to the same network with
+    different route types, routers use this order of preference (from highest to
+    lowest):<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Intra-area routes<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Inter-area routes<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">External Type-1 routes<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">External Type-2 routes<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">If there are multiple routes to a network with the same route type, the
+    OSPF metric calculated as cost based on the bandwidth is used for selecting <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">the best route. The route with the lowest value for cost is chosen as the
+    best route.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">If there are multiple routes to a network with the same route type and
+    cost, it chooses all the routes to be installed in the routing table, and the
+    router <o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">does equal cost load balancing across multiple paths.<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><o:p>&nbsp;</o:p></b></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">Fuente:</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"> </span><span style="mso-bidi-font-weight:bold"><a href="https://community.cisco.com/t5/networking-knowledge-base/how-does-ospf-select-the-best-route-and-does-load-balancing-work/tac-p/3127335#M2706" target="_blank"><span lang="ES" style="mso-ansi-language:ES">cisco.com</span></a></span><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span lang="ES" style="mso-ansi-language:
+    ES;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><b style="mso-bidi-font-weight:
+    normal"><span lang="ES" style="mso-ansi-language:ES">(2023)</span></b><span lang="ES" style="mso-ansi-language:ES;mso-bidi-font-weight:bold"> <i>El peor
+    camino a la cueva del perico…</i><o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold">Rosario, Argentina<o:p></o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal" style="margin-left:1.0in"><span style="mso-bidi-font-weight:
+    bold"><o:p>&nbsp;</o:p></span></p>
+    
+    <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+    
+    </div>
+    
+    
+    
+    
+    </body></html>
