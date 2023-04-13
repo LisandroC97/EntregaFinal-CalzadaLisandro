@@ -4,7 +4,7 @@
 @import "./Partials/fotos";
 @import "./Partials/laboratorios";
 @import "./Partials/queries";
-
+@import "./Partials/animaciones";
 
 @font-face {
     font-family: "SofiaSansExtraCondensed";
@@ -196,10 +196,14 @@ body{
         .carousel-caption{margin:auto;
             text-align: center;
 
-                h2{text-align: center;
-                    margin:auto;}
-                p{text-align: center;
-                    margin:auto;}
+                h5{text-align: center;
+                    margin:auto;
+                    font-size: 8em;}
+                p{display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                left: 0;
+            right: 0;}
                 }
 }
 /*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/

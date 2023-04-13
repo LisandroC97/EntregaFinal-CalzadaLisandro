@@ -722,6 +722,12 @@ body {
   font-size: 50%;
 }
 
+/*------------------------------------------Partial animaciones--------------------------------------------------------*/
+.card:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
 @font-face {
   font-family: "SofiaSansExtraCondensed";
   src: url(../Fonts/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
@@ -906,13 +912,17 @@ body {
   margin: auto;
   text-align: center;
 }
-.carousel .carousel-caption h2 {
+.carousel .carousel-caption h5 {
   text-align: center;
   margin: auto;
+  font-size: 8em;
 }
 .carousel .carousel-caption p {
-  text-align: center;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  left: 0;
+  right: 0;
 }
 
 /*---------------------------------------------------- fotos y viajes--------------------------------------------------------------*/
