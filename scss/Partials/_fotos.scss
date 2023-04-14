@@ -6,15 +6,15 @@
     padding: 40px;
     border-radius: 5px;
     margin: auto;
-
     .ttlfoto{
         font-size: 200%;
         text-align: center;
     }
 
     img{
-        width: 500px;
-        box-shadow: 5px 5px 3px rgb(126, 126, 126); ;
+        width: 350px;
+        box-shadow: 5px 5px 3px rgb(126, 126, 126); 
+        overflow: hidden;
     }
 }
 

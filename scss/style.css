@@ -48,8 +48,9 @@ p {
   text-align: center;
 }
 .contenedorfotos img {
-  width: 500px;
+  width: 350px;
   box-shadow: 5px 5px 3px rgb(126, 126, 126);
+  overflow: hidden;
 }
 
 /*----------------------------------------------------Partial Laboratorios----------------------------------------------------------------*/
