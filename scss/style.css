@@ -6,6 +6,16 @@
   padding: 5px;
 }
 
+h3 {
+  font-size: 120%;
+  width: 60%;
+  margin: auto;
+}
+
+p {
+  font-size: 150%;
+}
+
 /*----------------------------------------------------Partial Certificaciones----------------------------------------------------------------*/
 .sectiontitle {
   margin: auto;
@@ -722,10 +732,23 @@ body {
   font-size: 50%;
 }
 
-/*------------------------------------------Partial animaciones--------------------------------------------------------*/
+/*------------------------------------------Partial animaciones y laboratorios--------------------------------------------------------*/
 .card:hover {
   transform: scale(1.03);
   transition: 1s;
+}
+
+/*--------------------------------------Partial Labs--------------------------------------------------*/
+.wordsection1 {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+a h1 {
+  text-decoration: none;
+  color: white;
 }
 
 @font-face {
