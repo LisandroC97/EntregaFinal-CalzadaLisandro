@@ -50,9 +50,15 @@ p {
 .contenedorfotos .fotogaleria {
   width: 45%;
   height: 30%;
+  margin: auto;
   overflow: hidden;
+  font-size: 150%;
   padding: 10px;
+  margin-top: 20px;
   box-shadow: 5px 5px 5px rgb(97, 97, 97);
+}
+.contenedorfotos h3 {
+  font-size: 340%;
 }
 .contenedorfotos img .image-fluid {
   width: 250px;
