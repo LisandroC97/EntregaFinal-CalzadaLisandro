@@ -48,8 +48,11 @@ p {
   text-align: center;
 }
 .contenedorfotos .fotogaleria {
-  width: 45%;
-  height: 30%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 450px;
   margin: auto;
   overflow: hidden;
   font-size: 150%;
@@ -61,6 +64,7 @@ p {
   font-size: 340%;
 }
 .contenedorfotos img .image-fluid {
+  margin: auto;
   width: 250px;
   height: 250px;
   box-shadow: 5px 5px 3px rgb(126, 126, 126);
