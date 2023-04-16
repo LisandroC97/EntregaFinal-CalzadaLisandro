@@ -10,9 +10,17 @@
         font-size: 200%;
         text-align: center;
     }
+    .fotogaleria{width: 45%;
+        height: 30%;
+        overflow: hidden;
+        padding:10px;
+        box-shadow: 5px 5px 5px rgb(97, 97, 97);
+    }
 
-    img{
-        width: 350px;
+    img .image-fluid{
+
+        width: 250px;
+        height: 250px;
         box-shadow: 5px 5px 3px rgb(126, 126, 126); 
         overflow: hidden;
     }
